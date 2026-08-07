@@ -3,3 +3,4 @@ project_chrono_vision/data/frames/
 project_chrono_vision/data/videos/
 best_classifier_model.pth
 best_segmentation_model.pth
+yolov8l-seg.pt
