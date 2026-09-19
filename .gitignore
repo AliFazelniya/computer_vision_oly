@@ -5,3 +5,5 @@ best_classifier_model.pth
 best_segmentation_model.pth
 yolov8l-seg.pt
 *.pth
+pool/data/*
+her_face/data/*
