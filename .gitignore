@@ -7,3 +7,4 @@ yolov8l-seg.pt
 *.pth
 pool/data/*
 her_face/data/*
+watermark_detection/dataset/*
