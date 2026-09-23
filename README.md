@@ -1,5 +1,3 @@
-# computer_vision_oly
-
 ![poster](poster.jpg)
 
 # 🏆 Image Processing Competition — Final Preparation
