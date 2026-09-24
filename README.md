@@ -70,24 +70,31 @@ computer_vision_oly/
 ## 🧠 Category Descriptions
 
 ### 🔷 Classification
+
 Binary or multi-class image classification using deep learning backbones (ResNet, EfficientNet, CLIP ViT). Includes tasks such as car part identification, face classification, and watermark detection.
 
 ### 🔶 Object Detection
+
 Localizing and identifying objects within images. Includes classical geometric methods (offside line detection via color segmentation) as well as YOLO-based deep detection.
 
 ### 🟣 OCR (Optical Character Recognition)
+
 Recognizing text from images, including challenging handwritten or noisy inputs using convolutional sequence models and custom preprocessing.
 
 ### 🟢 Segmentation
+
 Pixel-level labeling including:
+
 - **1D Temporal Segmentation** (audio/spectrogram event detection via TCN)
 - **Medical Image Segmentation** (UNet on X-rays)
 - **Instance Segmentation** (YOLOv8-seg)
 
 ### 🟡 Geometry & Puzzle Solving
+
 Problems requiring geometric reasoning, perspective correction, and structured constraint solving — e.g., extracting and solving Sudoku boards from photographs.
 
 ### 🔵 Image Processing Fundamentals
+
 Classical signal processing and preprocessing techniques: FFT-based noise removal, distance-transform watermarking, morphological skin detection, feature-based image alignment (ORB + RANSAC), and video processing.
 
 ---
@@ -95,17 +102,20 @@ Classical signal processing and preprocessing techniques: FFT-based noise remova
 ## ⚙️ Setup & Installation
 
 ### Prerequisites
+
 - Python 3.10 or higher
 - CUDA-capable GPU (recommended for deep learning projects)
 - `git` with `git-lfs` (for large model weight files)
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/your-org/computer_vision_oly.git
 cd computer_vision_oly
 ```
 
 ### 2. Create a Virtual Environment
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate      # Linux / macOS
@@ -113,6 +123,7 @@ source .venv/bin/activate      # Linux / macOS
 ```
 
 ### 3. Install Core Dependencies
+
 ```bash
 pip install --upgrade pip
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
@@ -120,6 +131,7 @@ pip install opencv-python-headless numpy pandas matplotlib scikit-learn pillow t
 ```
 
 ### 4. Install Project-Specific Dependencies
+
 Each project may require additional packages. Install them as needed:
 
 ```bash
@@ -143,7 +155,9 @@ pip install joblib scikit-image
 ```
 
 ### 5. Dataset Setup
+
 Each project's `README.md` includes instructions for downloading and placing the dataset. General structure:
+
 ```
 <project>/
   ├── train/      ← Training images (+ optional train.csv)
@@ -163,6 +177,7 @@ jupyter notebook notebook.ipynb
 ```
 
 Or run standalone Python scripts:
+
 ```bash
 cd object_detection/offside
 python offside_detection.py
@@ -172,20 +187,20 @@ python offside_detection.py
 
 ## 📊 Projects at a Glance
 
-| Project | Category | Core Technique | Competition Link |
-|---------|----------|----------------|-----------------|
-| `machinebazi` | Classification | ResNet50, class-weighted CE | [Quera](https://quera.org/problemset/307569) |
-| `her_face` | Classification | Deep CNN | — |
-| `pool` | Classification | CNN | — |
-| `watermark_detection` | Classification | CNN | — |
-| `offside` | Object Detection | Color segmentation + geometry | [Quera](https://quera.org/contest/assignments/103147/problems/355584) |
-| `football_analysis` | Object Detection | YOLOv8x | — |
-| `ugly_handwriting` | OCR | Custom CNN + seq model | — |
-| `avengers_shield` | Segmentation | Dilated TCN + BoundaryRefiner | [Quera](https://quera.org/contest/assignments/103147/problems/355588) |
-| `ultravision_operation` | Segmentation | CLIP ViT + UNet | [Quera](https://quera.org/contest/assignments/91552/problems/310514) |
-| `project_chrono_vision` | Segmentation | YOLOv8l-seg | — |
-| `sudoku` | Geometry & Puzzle | Perspective warp + SudokuCNN + backtracking | [Quera](https://quera.org/contest/assignments/103147/problems/355590) |
-| `opencv` | IP Fundamentals | FFT, morphology, ORB, Hough | — |
+| Project                 | Category          | Core Technique                              | Competition Link                                                        |
+| ----------------------- | ----------------- | ------------------------------------------- | ----------------------------------------------------------------------- |
+| `machinebazi`           | Classification    | ResNet50, class-weighted CE                 | [Quera](https://quera.org/problemset/307569)                            |
+| `her_face`              | Classification    | Deep CNN                                    | — [Quera](https://quera.org/problemset/251284)                          |
+| `pool`                  | Classification    | CNN                                         | — [Quera](https://quera.org/problemset/251285)                          |
+| `watermark_detection`   | Classification    | CNN                                         | — [Quera](https://quera.org/problemset/138169)                          |
+| `offside`               | Object Detection  | Color segmentation + geometry               | — [Quera](https://quera.org/contest/assignments/103147/problems/355584) |
+| `football_analysis`     | Object Detection  | YOLOv8x                                     | —                                                                       |
+| `ugly_handwriting`      | OCR               | Custom CNN + seq model                      | —                                                                       |
+| `avengers_shield`       | Segmentation      | Dilated TCN + BoundaryRefiner               | [Quera](https://quera.org/contest/assignments/103147/problems/355588)   |
+| `ultravision_operation` | Segmentation      | CLIP ViT + UNet                             | [Quera](https://quera.org/contest/assignments/91552/problems/310514)    |
+| `project_chrono_vision` | Segmentation      | YOLOv8l-seg                                 | —                                                                       |
+| `sudoku`                | Geometry & Puzzle | Perspective warp + SudokuCNN + backtracking | [Quera](https://quera.org/contest/assignments/103147/problems/355590)   |
+| `opencv`                | IP Fundamentals   | FFT, morphology, ORB, Hough                 | —                                                                       |
 
 ---
 
