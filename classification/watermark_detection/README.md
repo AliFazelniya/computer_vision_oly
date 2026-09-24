@@ -1,6 +1,6 @@
 # Watermark Detection — Image Authenticity Classification
 
-> **Competition:** Quera Image Processing Olympiad
+> **Competition:** [Quera Image Processing Olympiad](https://quera.org/problemset/138169)
 
 ---
 

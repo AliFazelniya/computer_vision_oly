@@ -1,6 +1,6 @@
 # Her Face — Multi-Attribute Face Classification
 
-> **Competition:** Quera Image Processing Olympiad
+> **Competition:** [Quera Image Processing Olympiad](https://quera.org/problemset/251284)
 
 ---
 

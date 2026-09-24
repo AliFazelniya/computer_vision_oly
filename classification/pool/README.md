@@ -1,6 +1,6 @@
 # Pool Detection — Property Listing Image Classification
 
-> **Competition:** Quera Image Processing Olympiad
+> **Competition:** [Quera Image Processing Olympiad](https://quera.org/problemset/251285)
 
 ---
 
