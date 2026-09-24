@@ -16,7 +16,8 @@ segmentation/avengers_shield/test
 segmentation/avengers_shield/train
 ocr/ugly_handwriting/train
 ocr/ugly_handwriting/test
-object_detection/football_analysis/data
+object_detection/football_analysis/train
+object_detection/football_analysis/test
 geometry_and_puzzle_solving/sudoku/dataset/train
 geometry_and_puzzle_solving/sudoku/dataset/test
 classification/watermark_detection/dataset
