@@ -8,3 +8,17 @@ yolov8l-seg.pt
 pool/data/*
 her_face/data/*
 watermark_detection/dataset/*
+classification/her_face/data/*
+segmentation/ultravision_operation/data/*
+segmentation/project_chrono_vision/data/*
+segmentation/avengers_shield/test
+segmentation/avengers_shield/train
+ocr/ugly_handwriting/train
+ocr/ugly_handwriting/test
+object_detection/football_analysis/data
+geometry_and_puzzle_solving/sudoku/dataset/train
+geometry_and_puzzle_solving/sudoku/dataset/test
+classification/watermark_detection/dataset
+classification/pool/data
+classification/machinebazi/train
+classification/machinebazi/test
