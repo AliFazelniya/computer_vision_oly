@@ -1,6 +1,6 @@
 # Football Analysis — YOLO Player Detection & Tracking
 
-> **Competition:** Quera Image Processing Olympiad
+> **Competition:** [Quera Image Processing Olympiad](https://quera.org/problemset/307571)
 
 ---
 

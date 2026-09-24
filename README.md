@@ -187,20 +187,20 @@ python offside_detection.py
 
 ## 📊 Projects at a Glance
 
-| Project                 | Category          | Core Technique                              | Competition Link                                                        |
-| ----------------------- | ----------------- | ------------------------------------------- | ----------------------------------------------------------------------- |
-| `machinebazi`           | Classification    | ResNet50, class-weighted CE                 | [Quera](https://quera.org/problemset/307569)                            |
-| `her_face`              | Classification    | Deep CNN                                    | — [Quera](https://quera.org/problemset/251284)                          |
-| `pool`                  | Classification    | CNN                                         | — [Quera](https://quera.org/problemset/251285)                          |
-| `watermark_detection`   | Classification    | CNN                                         | — [Quera](https://quera.org/problemset/138169)                          |
-| `offside`               | Object Detection  | Color segmentation + geometry               | — [Quera](https://quera.org/contest/assignments/103147/problems/355584) |
-| `football_analysis`     | Object Detection  | YOLOv8x                                     | —                                                                       |
-| `ugly_handwriting`      | OCR               | Custom CNN + seq model                      | —                                                                       |
-| `avengers_shield`       | Segmentation      | Dilated TCN + BoundaryRefiner               | [Quera](https://quera.org/contest/assignments/103147/problems/355588)   |
-| `ultravision_operation` | Segmentation      | CLIP ViT + UNet                             | [Quera](https://quera.org/contest/assignments/91552/problems/310514)    |
-| `project_chrono_vision` | Segmentation      | YOLOv8l-seg                                 | —                                                                       |
-| `sudoku`                | Geometry & Puzzle | Perspective warp + SudokuCNN + backtracking | [Quera](https://quera.org/contest/assignments/103147/problems/355590)   |
-| `opencv`                | IP Fundamentals   | FFT, morphology, ORB, Hough                 | —                                                                       |
+| Project                 | Category          | Core Technique                              | Competition Link                                                      |
+| ----------------------- | ----------------- | ------------------------------------------- | --------------------------------------------------------------------- |
+| `machinebazi`           | Classification    | ResNet50, class-weighted CE                 | [Quera](https://quera.org/problemset/307569)                          |
+| `her_face`              | Classification    | Deep CNN                                    | [Quera](https://quera.org/problemset/251284)                          |
+| `pool`                  | Classification    | CNN                                         | [Quera](https://quera.org/problemset/251285)                          |
+| `watermark_detection`   | Classification    | CNN                                         | [Quera](https://quera.org/problemset/138169)                          |
+| `offside`               | Object Detection  | Color segmentation + geometry               | [Quera](https://quera.org/contest/assignments/103147/problems/355584) |
+| `football_analysis`     | Object Detection  | YOLOv8x                                     | [Quera](https://quera.org/problemset/307571)                          |
+| `ugly_handwriting`      | OCR               | Custom CNN + seq model                      | [Quera](https://quera.org/problemset/292198)                          |
+| `avengers_shield`       | Segmentation      | Dilated TCN + BoundaryRefiner               | [Quera](https://quera.org/contest/assignments/103147/problems/355588) |
+| `ultravision_operation` | Segmentation      | CLIP ViT + UNet                             | [Quera](https://quera.org/contest/assignments/91552/problems/310514)  |
+| `project_chrono_vision` | Segmentation      | YOLOv8l-seg                                 | [Quera](https://quera.org/contest/assignments/91552/problems/310516)  |
+| `sudoku`                | Geometry & Puzzle | Perspective warp + SudokuCNN + backtracking | [Quera](https://quera.org/contest/assignments/103147/problems/355590) |
+| `opencv`                | IP Fundamentals   | FFT, morphology, ORB, Hough                 | [OpenCV](https://docs.opencv.org/5.0/)                                |
 
 ---
 

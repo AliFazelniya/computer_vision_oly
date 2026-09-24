@@ -1,6 +1,6 @@
 # Project Chrono Vision — Instance Segmentation
 
-> **Competition:** Quera Image Processing Olympiad
+> **Competition:** [Quera Image Processing Olympiad](https://quera.org/contest/assignments/91552/problems/310516)
 
 ---
 

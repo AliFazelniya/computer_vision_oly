@@ -1,6 +1,6 @@
 # Ugly Handwriting — Optical Character Recognition
 
-> **Competition:** Quera Image Processing Olympiad
+> **Competition:** [Quera Image Processing Olympiad](https://quera.org/problemset/292198)
 
 ---
 
