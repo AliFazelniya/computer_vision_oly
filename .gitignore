@@ -11,7 +11,7 @@ watermark_detection/dataset/*
 classification/her_face/data/*
 segmentation/ultravision_operation/train/
 segmentation/ultravision_operation/test/
-segmentation/project_chrono_vision/data/*
+segmentation/project_chrono_vision/data/
 segmentation/avengers_shield/test
 segmentation/avengers_shield/train
 ocr/ugly_handwriting/train
