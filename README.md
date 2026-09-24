@@ -110,7 +110,7 @@ Classical signal processing and preprocessing techniques: FFT-based noise remova
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-org/computer_vision_oly.git
+git clone https://github.com/AliFazelniya/computer_vision_oly/tree/main
 cd computer_vision_oly
 ```
 
