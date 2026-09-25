@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+ultralytics
+scipy
+joblib
+scikit-image
+tensorflow
+keras
+transformers
+opencv-python-headless
+numpy
+pandas
+matplotlib
+scikit-learn
+pillow
+tqdm
+torch
+torchvision
+torchaudio

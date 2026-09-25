@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Team Chati Pati — Quera Image Processing Competition
+# Team Chati Pati — Quera Image Processing Competition
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red?logo=pytorch)](https://pytorch.org)
@@ -11,43 +11,41 @@
 
 </div>
 
----
+<p align="center"><img src="poster.jpg" alt="poster" /></p>
 
-## 📌 About This Repository
+## About This Repository
 
 This repository is the central hub for **Team Chati Pati**'s solutions to all challenges in the [Quera Image Processing Competition](https://quera.org). Each project directory contains a fully self-contained solution with its own dataset references, trained model weights, and detailed documentation.
 
 The repository is organized by **Computer Vision discipline**, making it easy to cross-reference techniques and reuse components across challenges.
 
----
-
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 computer_vision_oly/
 │
-├── 🔷 classification/                   # Image Classification tasks
+├── classification/                   # Image Classification tasks
 │   ├── her_face/                        # Face-based classification
-│   ├── machinebazi/                     # 🆕 Multi-label car part classification (ResNet50)
+│   ├── machinebazi/                     # Multi-label car part classification (ResNet50)
 │   ├── pool/                            # Pool classification challenge
 │   └── watermark_detection/             # Watermark presence detection
 │
-├── 🔶 object_detection/                 # Object Detection & Localization tasks
+├── object_detection/                 # Object Detection & Localization tasks
 │   ├── football_analysis/               # YOLO-based football player analysis
-│   └── offside/                         # 🆕 Geometric football offside detection
+│   └── offside/                         # Geometric football offside detection
 │
-├── 🟣 ocr/                              # Optical Character Recognition tasks
+├── ocr/                              # Optical Character Recognition tasks
 │   └── ugly_handwriting/                # Handwritten character recognition
 │
-├── 🟢 segmentation/                     # Pixel-Level Segmentation tasks
-│   ├── avengers_shield/                 # 🆕 1D drone audio event segmentation (TCN)
+├── segmentation/                     # Pixel-Level Segmentation tasks
+│   ├── avengers_shield/                 # 1D drone audio event segmentation (TCN)
 │   ├── project_chrono_vision/           # YOLOv8 instance segmentation
-│   └── ultravision_operation/           # 🆕 Medical X-ray segmentation (UNet + CLIP)
+│   └── ultravision_operation/           # Medical X-ray segmentation (UNet + CLIP)
 │
-├── 🟡 geometry_and_puzzle_solving/      # 🆕 NEW CATEGORY — Geometric & Structural reasoning
-│   └── sudoku/                          # 🆕 Sudoku board extraction + CNN digit recognition + solver
+├── geometry_and_puzzle_solving/      # NEW CATEGORY — Geometric & Structural reasoning
+│   └── sudoku/                          # Sudoku board extraction + CNN digit recognition + solver
 │
-├── 🔵 image_processing_fundamentals/   # 🆕 NEW CATEGORY — Classical CV & Preprocessing
+├── image_processing_fundamentals/   # NEW CATEGORY — Classical CV & Preprocessing
 │   └── opencv/
 │       ├── postcard/                    # FFT noise removal + watermark embedding
 │       │   ├── watermark_v1.py
@@ -58,30 +56,28 @@ computer_vision_oly/
 │       ├── sheet1.ipynb                 # OpenCV exercises: Sobel, Canny, ORB, Hough
 │       └── video_gray.ipynb             # Grayscale video conversion pipeline
 │
-├── README.md                            # ← You are here
+├── README.md
 ├── poster.jpg
-└── image_processing_competition_43_day_notion.md
+├── image_processing_competition_43_day_notion.md
+├── f495847_yolo-olympic.pptx
+└── requirements.txt
 ```
 
-> **🆕 Newly categorized** directories were previously unclassified at the root level and have been intelligently reorganized based on their core CV tasks.
+## Category Descriptions
 
----
-
-## 🧠 Category Descriptions
-
-### 🔷 Classification
+### Classification
 
 Binary or multi-class image classification using deep learning backbones (ResNet, EfficientNet, CLIP ViT). Includes tasks such as car part identification, face classification, and watermark detection.
 
-### 🔶 Object Detection
+### Object Detection
 
 Localizing and identifying objects within images. Includes classical geometric methods (offside line detection via color segmentation) as well as YOLO-based deep detection.
 
-### 🟣 OCR (Optical Character Recognition)
+### OCR (Optical Character Recognition)
 
 Recognizing text from images, including challenging handwritten or noisy inputs using convolutional sequence models and custom preprocessing.
 
-### 🟢 Segmentation
+### Segmentation
 
 Pixel-level labeling including:
 
@@ -89,17 +85,15 @@ Pixel-level labeling including:
 - **Medical Image Segmentation** (UNet on X-rays)
 - **Instance Segmentation** (YOLOv8-seg)
 
-### 🟡 Geometry & Puzzle Solving
+### Geometry & Puzzle Solving
 
 Problems requiring geometric reasoning, perspective correction, and structured constraint solving — e.g., extracting and solving Sudoku boards from photographs.
 
-### 🔵 Image Processing Fundamentals
+### Image Processing Fundamentals
 
 Classical signal processing and preprocessing techniques: FFT-based noise removal, distance-transform watermarking, morphological skin detection, feature-based image alignment (ORB + RANSAC), and video processing.
 
----
-
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 
@@ -122,37 +116,15 @@ source .venv/bin/activate      # Linux / macOS
 # .venv\Scripts\activate       # Windows
 ```
 
-### 3. Install Core Dependencies
+### 3. Install Dependencies
 
 ```bash
-pip install --upgrade pip
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-pip install opencv-python-headless numpy pandas matplotlib scikit-learn pillow tqdm
+pip install -r requirements.txt
 ```
 
 ### 4. Install Project-Specific Dependencies
 
 Each project may require additional packages. Install them as needed:
-
-```bash
-# Segmentation projects
-pip install segmentation-models-pytorch albumentations
-
-# OCR / Handwriting
-pip install tensorflow keras
-
-# CLIP-based classification
-pip install transformers
-
-# Object detection
-pip install ultralytics
-
-# Sudoku solver
-pip install scipy
-
-# Parallel processing / optimization
-pip install joblib scikit-image
-```
 
 ### 5. Dataset Setup
 
@@ -165,9 +137,7 @@ Each project's `README.md` includes instructions for downloading and placing the
   └── notebook.ipynb
 ```
 
----
-
-## 🏃 Quick Start
+## Quick Start
 
 Navigate into any project and run its notebook:
 
@@ -183,9 +153,7 @@ cd object_detection/offside
 python offside_detection.py
 ```
 
----
-
-## 📊 Projects at a Glance
+## Projects at a Glance
 
 | Project                 | Category          | Core Technique                              | Competition Link                                                      |
 | ----------------------- | ----------------- | ------------------------------------------- | --------------------------------------------------------------------- |
@@ -202,13 +170,9 @@ python offside_detection.py
 | `sudoku`                | Geometry & Puzzle | Perspective warp + SudokuCNN + backtracking | [Quera](https://quera.org/contest/assignments/103147/problems/355590) |
 | `opencv`                | IP Fundamentals   | FFT, morphology, ORB, Hough                 | [OpenCV](https://docs.opencv.org/5.0/)                                |
 
----
-
 ## 🤝 Team
 
 **Team Chati Pati** — Competing in the Quera Image Processing Olympiad, Final Round.
-
----
 
 ## 📄 License
 
