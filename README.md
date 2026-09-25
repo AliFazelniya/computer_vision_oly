@@ -56,10 +56,12 @@ computer_vision_oly/
 │       ├── sheet1.ipynb                 # OpenCV exercises: Sobel, Canny, ORB, Hough
 │       └── video_gray.ipynb             # Grayscale video conversion pipeline
 │
+├── docs/
+│   ├── roadmap.md                       # Roadmap for final round (for notion)
+│   └── yolo.pptx                        # Powerpoint file for yolo model info
+│
 ├── README.md
 ├── poster.jpg
-├── image_processing_competition_43_day_notion.md
-├── f495847_yolo-olympic.pptx
 └── requirements.txt
 ```
 
