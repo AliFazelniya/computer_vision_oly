@@ -24,3 +24,4 @@ classification/watermark_detection/dataset
 classification/pool/data
 classification/machinebazi/train
 classification/machinebazi/test
+yolov8n.pt
