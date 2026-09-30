@@ -573,8 +573,8 @@ def apply_watermark(cover_name: str, message_name:str):
     numpy.ndarray, dtype=uint8, shape=(H, W)
         Watermarked grayscale image ready for display or saving.
     """
-    cover_path = os.path.join("Data/Cover", cover_name)
-    msg_path = os.path.join("Data/Message", message_name)
+    cover_path = os.path.join("data/cover", cover_name)
+    msg_path = os.path.join("data/message", message_name)
 
     # Read both images as float32 [0, 1] grayscale.
     cover = _read_gray(cover_path)

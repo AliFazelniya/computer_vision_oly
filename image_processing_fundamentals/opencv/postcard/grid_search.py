@@ -474,10 +474,10 @@ def grid_search_ssim_parallel(tests, param_grid, max_workers = 16):
 if __name__ == "__main__":
 
     tests = [
-        ("isfahan.jpg", "Isfahan.jpg", "Isfahan.jpg"),
-        ("Kashan.jpg", "Kashan.jpg", "Kashan.jpg"),
-        ("Kish.jpg", "Kish.jpg", "Kish.jpg"),
-        ("Tehran.jpg", "Tehran.jpg", "Tehran.jpg")
+        ("isfahan.jpg", "isfahan.jpg", "isfahan.jpg"),
+        ("kashan.jpg", "kashan.jpg", "kashan.jpg"),
+        ("kish.jpg", "kish.jpg", "kish.jpg"),
+        ("tehran.jpg", "tehran.jpg", "tehran.jpg")
 
     ]
 

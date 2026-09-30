@@ -224,8 +224,8 @@ def apply_watermark(cover_name, message_name):
 
 
 def main():
-    cover_name = "./Data/Cover/Kashan.jpg"
-    message_name = "./Data/Message/Kashan.jpg"
+    cover_name = "./data/cover/kashan.jpg"
+    message_name = "./data/message/kashan.jpg"
 
     result = apply_watermark(cover_name, message_name)
     cv2.imshow("result", result)
