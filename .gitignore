@@ -13,6 +13,7 @@ classification/machinebazi/test
 
 segmentation/ultravision_operation/train/
 segmentation/ultravision_operation/test/
+segmentation/ultravision_operation/result/
 segmentation/project_chrono_vision/data/
 segmentation/avengers_shield/test
 segmentation/avengers_shield/train
