@@ -24,6 +24,7 @@ ocr/ugly_handwriting/test
 
 object_detection/football_analysis/train
 object_detection/football_analysis/test
+object_detection/runs/
 
 geometry_and_puzzle_solving/sudoku/dataset/train
 geometry_and_puzzle_solving/sudoku/dataset/test
