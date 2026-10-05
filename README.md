@@ -33,12 +33,10 @@ computer_vision_oly/
 ├── object_detection/                 # Object Detection & Localization tasks
 │   ├── football_analysis/               # YOLO-based football player analysis
 │   ├── offside/                         # Geometric football offside detection
-│   ├── generate_yolo_notebook.py        # Python script to generate Phase 2 curriculum
-│   └── chati_pati_yolo_master.ipynb     # Phase 2: YOLO & Object Detection master notebook
+│   └── sheet.ipynb    # Phase 2: YOLO & Object Detection master notebook
 │
 ├── object_tracking/                  # Object Tracking tasks
-│   ├── generate_tracking_notebook.py    # Python script to generate Phase 3 curriculum
-│   └── chati_pati_tracking_master.ipynb # Phase 3: Custom SORT, Kalman, ByteTrack master notebook
+│   └── sheet.ipynb # Phase 3: Custom SORT, Kalman, ByteTrack master notebook
 │
 ├── ocr/                              # Optical Character Recognition tasks
 │   └── ugly_handwriting/                # Handwritten character recognition
@@ -59,7 +57,7 @@ computer_vision_oly/
 │       │   └── grid_search.py           # Parallel SSIM-optimized parameter search
 │       ├── skin_finding/
 │       │   └── skin.py                  # YCrCb + HSV dual-space skin detection
-│       ├── sheet1.ipynb                 # OpenCV exercises: Sobel, Canny, ORB, Hough
+│       ├── sheet.ipynb                 # OpenCV exercises: Sobel, Canny, ORB, Hough
 │       └── video_gray.ipynb             # Grayscale video conversion pipeline
 │
 ├── docs/
@@ -134,7 +132,7 @@ source .venv/bin/activate      # Linux / macOS
 pip install -r requirements.txt
 ```
 
-*Note: Following the recent Phase 2 and Phase 3 updates, ensure your environment includes the newly added core libraries: `ultralytics` (for YOLO), `pandas`, `scipy` (for Hungarian matching), `filterpy` (for Kalman Filters), and `opencv-python`.*
+_Note: Following the recent Phase 2 and Phase 3 updates, ensure your environment includes the newly added core libraries: `ultralytics` (for YOLO), `pandas`, `scipy` (for Hungarian matching), `filterpy` (for Kalman Filters), and `opencv-python`._
 
 ### 4. Install Project-Specific Dependencies
 
