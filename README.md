@@ -32,7 +32,13 @@ computer_vision_oly/
 │
 ├── object_detection/                 # Object Detection & Localization tasks
 │   ├── football_analysis/               # YOLO-based football player analysis
-│   └── offside/                         # Geometric football offside detection
+│   ├── offside/                         # Geometric football offside detection
+│   ├── generate_yolo_notebook.py        # Python script to generate Phase 2 curriculum
+│   └── chati_pati_yolo_master.ipynb     # Phase 2: YOLO & Object Detection master notebook
+│
+├── object_tracking/                  # Object Tracking tasks
+│   ├── generate_tracking_notebook.py    # Python script to generate Phase 3 curriculum
+│   └── chati_pati_tracking_master.ipynb # Phase 3: Custom SORT, Kalman, ByteTrack master notebook
 │
 ├── ocr/                              # Optical Character Recognition tasks
 │   └── ugly_handwriting/                # Handwritten character recognition
@@ -71,9 +77,13 @@ computer_vision_oly/
 
 Binary or multi-class image classification using deep learning backbones (ResNet, EfficientNet, CLIP ViT). Includes tasks such as car part identification, face classification, and watermark detection.
 
-### Object Detection
+### Object Detection (Phase 2)
 
-Localizing and identifying objects within images. Includes classical geometric methods (offside line detection via color segmentation) as well as YOLO-based deep detection.
+Localizing and identifying objects within images. Includes classical geometric methods (offside line detection via color segmentation) as well as modern YOLO-based deep detection and mAP evaluation. This module features a comprehensive Jupyter Notebook (`chati_pati_yolo_master.ipynb`) generated automatically via a custom Python script (`generate_yolo_notebook.py`) to systematically guide the team through detection concepts.
+
+### Object Tracking (Phase 3)
+
+Tracking objects across video sequences. Features robust multi-object tracking techniques including custom implementations of SORT, Kalman Filters, Hungarian matching, and ByteTrack. A detailed curriculum is provided in the `chati_pati_tracking_master.ipynb` notebook (built using a Python generator script) to ensure reproducible and up-to-date educational material for the team.
 
 ### OCR (Optical Character Recognition)
 
@@ -124,6 +134,8 @@ source .venv/bin/activate      # Linux / macOS
 pip install -r requirements.txt
 ```
 
+*Note: Following the recent Phase 2 and Phase 3 updates, ensure your environment includes the newly added core libraries: `ultralytics` (for YOLO), `pandas`, `scipy` (for Hungarian matching), `filterpy` (for Kalman Filters), and `opencv-python`.*
+
 ### 4. Install Project-Specific Dependencies
 
 Each project may require additional packages. Install them as needed:
@@ -164,6 +176,8 @@ python offside_detection.py
 | `pool`                  | Classification    | CNN                                         | [Quera](https://quera.org/problemset/251285)                          |
 | `watermark_detection`   | Classification    | CNN                                         | [Quera](https://quera.org/problemset/138169)                          |
 | `offside`               | Object Detection  | Color segmentation + geometry               | [Quera](https://quera.org/contest/assignments/103147/problems/355584) |
+| `yolo_master`           | Object Detection  | YOLOv8, bounding boxes, mAP eval            | Phase 2 Curriculum                                                    |
+| `tracking_master`       | Object Tracking   | SORT, Kalman Filter, ByteTrack, Hungarian   | Phase 3 Curriculum                                                    |
 | `football_analysis`     | Object Detection  | YOLOv8x                                     | [Quera](https://quera.org/problemset/307571)                          |
 | `ugly_handwriting`      | OCR               | Custom CNN + seq model                      | [Quera](https://quera.org/problemset/292198)                          |
 | `avengers_shield`       | Segmentation      | Dilated TCN + BoundaryRefiner               | [Quera](https://quera.org/contest/assignments/103147/problems/355588) |
