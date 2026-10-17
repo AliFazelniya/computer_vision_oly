@@ -1,0 +1,13 @@
+Centroid Object Tracking:
+https://medium.com/@subhajeet.roy/centroid-object-tracking-835d75e4a75a
+https://www.analyticsvidhya.com/blog/2022/05/a-tutorial-on-centroid-tracker-counter-system
+
+IoU Tracking & Greedy Matching:
+https://medium.com/@imadityarathore/understanding-iou-the-key-metric-for-object-detection-accuracy-109be9461a09
+https://en.wikipedia.org/wiki/Greedy_algorithm
+
+Hungarian Algorithm:
+https://en.wikipedia.org/wiki/Hungarian_algorithm
+
+Kalman Filter:
+https://kalmanfilter.net
