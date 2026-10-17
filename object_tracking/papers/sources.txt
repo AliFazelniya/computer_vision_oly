@@ -11,3 +11,9 @@ https://en.wikipedia.org/wiki/Hungarian_algorithm
 
 Kalman Filter:
 https://kalmanfilter.net
+
+SORT:
+https://arxiv.org/abs/1602.00763
+
+ByteTrack:
+https://arxiv.org/abs/2110.06864
