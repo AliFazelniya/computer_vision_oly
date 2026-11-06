@@ -31,3 +31,5 @@ geometry_and_puzzle_solving/sudoku/dataset/train
 geometry_and_puzzle_solving/sudoku/dataset/test
 
 object_tracking/box_factory/box-factory-dataset
+
+integrated_problems/phase5_integrated_problems
