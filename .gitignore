@@ -21,6 +21,7 @@ segmentation/avengers_shield/train
 
 ocr/ugly_handwriting/train
 ocr/ugly_handwriting/test
+ocr/packman/mini-packman-dataset
 
 object_detection/football_analysis/train
 object_detection/football_analysis/test
