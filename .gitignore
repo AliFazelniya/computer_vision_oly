@@ -29,3 +29,5 @@ object_detection/runs/
 
 geometry_and_puzzle_solving/sudoku/dataset/train
 geometry_and_puzzle_solving/sudoku/dataset/test
+
+object_tracking/box_factory/box-factory-dataset
