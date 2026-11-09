@@ -1,5 +1,7 @@
 *.pt
 *.pth
+__pycache__
+__init__.py
 
 classification/pool/test
 classification/pool/train
