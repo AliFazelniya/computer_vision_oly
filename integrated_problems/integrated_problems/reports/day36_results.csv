@@ -1,0 +1,689 @@
+config,scene,kind,found,gt,pred,cer,cer_strict,exact,scene_ms
+"A raw: detect + Tesseract(no prep, no norm)",0,plate,True,۰۷س۲۰۱۷۴,۲۱ل۰۷۲۷۴,0.75,0.75,False,39.25254801288247
+"A raw: detect + Tesseract(no prep, no norm)",1,sign,True,ایستگاه مترو,ایستگاه مترو,0.0,0.0,True,98.27745301299728
+"A raw: detect + Tesseract(no prep, no norm)",2,label,True,"عسل طبیعی
+۳۶۵۴۶ تومان
+وزن ۱۸۴ گرم","۶ تومان
+وزن ۱۸۴ گرم",0.42424242424242425,0.42424242424242425,False,92.51544802100398
+"A raw: detect + Tesseract(no prep, no norm)",3,plate,True,۹۵د۲۳۸۱۸,"۳۳9
+٩۰۸ ۸",0.875,0.875,False,84.46011698106304
+"A raw: detect + Tesseract(no prep, no norm)",3,sign,True,ورود ممنوع,,1.0,1.0,False,84.46011698106304
+"A raw: detect + Tesseract(no prep, no norm)",4,label,False,"ماست محلی
+۳۵۳۳۲۶ تومان
+وزن ۱۲۴ گرم",,1.0,1.0,False,18.981449014972895
+"A raw: detect + Tesseract(no prep, no norm)",4,sign,True,خروج اضطراری,,1.0,1.0,False,18.981449014972895
+"A raw: detect + Tesseract(no prep, no norm)",5,label,True,"شیر کم چرب
+۸۵۵۴۳ تومان
+وزن ۷۸۹ گرم","ظیرکم جرب
+۳ ستوماری
+وزدم ‎٩‏ کرج",0.47058823529411764,0.5,False,84.31487297639251
+"A raw: detect + Tesseract(no prep, no norm)",5,plate,True,۰۱و۱۸۵۶۹,را,1.0,1.0,False,84.31487297639251
+"A raw: detect + Tesseract(no prep, no norm)",6,plate,True,۶۱ی۸۷۵۶۳,۷۱۶۷۳,0.625,0.625,False,39.543986989883706
+"A raw: detect + Tesseract(no prep, no norm)",7,sign,False,فروشگاه مرکزی,,1.0,1.0,False,0.9375819936394691
+"A raw: detect + Tesseract(no prep, no norm)",8,label,True,"شیر کم چرب
+۷۰۵۹۴ تومان
+وزن ۰۲۱ گرم","شیر کم چرب
+۴ تومان
+وزن ۰۲۱ گرم",0.11764705882352941,0.11764705882352941,False,41.57091598608531
+"A raw: detect + Tesseract(no prep, no norm)",9,sign,True,پارکینگ عمومی,,1.0,1.0,False,58.9606849825941
+"A raw: detect + Tesseract(no prep, no norm)",9,plate,True,۳۱ب۵۲۴۷۱,رباع۲جبتربا,1.25,1.25,False,58.9606849825941
+"A raw: detect + Tesseract(no prep, no norm)",10,label,False,"برنج ایرانی
+۰۳۷۹۹ تومان
+وزن ۹۹۱ گرم",,1.0,1.0,False,20.6682049902156
+"A raw: detect + Tesseract(no prep, no norm)",10,sign,True,بیمارستان,,1.0,1.0,False,20.6682049902156
+"A raw: detect + Tesseract(no prep, no norm)",11,label,True,"رب گوجه فرنگی
+۱۷۵۴۸۱ تومان
+وزن ۸۳۶ گرم","رب گوجه فرنگی
+۸۱ تومان
+وزن ۸۳۶ گرم",0.10526315789473684,0.10526315789473684,False,92.41161201498471
+"A raw: detect + Tesseract(no prep, no norm)",11,plate,True,۳۳س۶۸۲۷۰,۲۷ستا,0.875,0.875,False,92.41161201498471
+"A raw: detect + Tesseract(no prep, no norm)",11,sign,True,دانشگاه تهران,,1.0,1.0,False,92.41161201498471
+"A raw: detect + Tesseract(no prep, no norm)",12,plate,True,۲۷ت۱۴۹۰۴,۷۲,0.875,0.875,False,33.94141301396303
+"A raw: detect + Tesseract(no prep, no norm)",13,sign,True,ایستگاه مترو,,1.0,1.0,False,17.52122602192685
+"A raw: detect + Tesseract(no prep, no norm)",14,label,True,"عسل طبیعی
+۵۱۲۰۴۳ تومان
+وزن ۶۵۲ گرم","۳ تومان
+وزن ۶۵۲ گرم",0.4411764705882353,0.4411764705882353,False,35.077560984063894
+"A raw: detect + Tesseract(no prep, no norm)",15,sign,False,دانشگاه تهران,,1.0,1.0,False,75.68554300814867
+"A raw: detect + Tesseract(no prep, no norm)",15,plate,True,۴۱ن۹۷۰۴۷,اقا,1.0,1.0,False,75.68554300814867
+"A raw: detect + Tesseract(no prep, no norm)",16,label,True,"چای سبز
+۲۵۶۳۳ تومان
+وزن ۱۱۳ گرم","چای سبز
+۲ تومان
+وزن ۱۳ گرم",0.16129032258064516,0.16129032258064516,False,60.13727298704907
+"A raw: detect + Tesseract(no prep, no norm)",16,sign,True,کتابخانه ملی,,1.0,1.0,False,60.13727298704907
+"A raw: detect + Tesseract(no prep, no norm)",17,label,False,"شیر کم چرب
+۰۱۶۶۸ تومان
+وزن ۸۱۱ گرم",,1.0,1.0,False,63.09035202139057
+"A raw: detect + Tesseract(no prep, no norm)",17,plate,True,۱۲پ۶۸۴۸۷,۲۹۱۲ب۵,0.875,0.875,False,63.09035202139057
+"A raw: detect + Tesseract(no prep, no norm)",17,sign,False,داروخانه شبانه روزی,,1.0,1.0,False,63.09035202139057
+"A raw: detect + Tesseract(no prep, no norm)",18,plate,True,۸۵د۵۴۵۵۸,۱۰۵۱,0.875,0.875,False,31.24547697370872
+"A raw: detect + Tesseract(no prep, no norm)",19,sign,True,ورود ممنوع,,1.0,1.0,False,16.970819007838145
+"A raw: detect + Tesseract(no prep, no norm)",20,label,True,"شیر کم چرب
+۶۷۳۶۸ تومان
+وزن ۴۱۳ گرم","شیر کم چرب
+۸ تومان
+وزن ۴۱۳ گرم",0.11764705882352941,0.11764705882352941,False,54.835980001371354
+"A raw: detect + Tesseract(no prep, no norm)",21,plate,True,۴۰ه۰۲۲۴۱,۲۰۵۰۳۱۱,0.625,0.625,False,57.47436502133496
+"A raw: detect + Tesseract(no prep, no norm)",21,sign,True,دانشگاه تهران,,1.0,1.0,False,57.47436502133496
+"A raw: detect + Tesseract(no prep, no norm)",22,label,True,"ماست محلی
+۷۸۸۲۲ تومان
+وزن ۶۶۸ گرم","ماست محلی
+۲ تومان
+وزن ۶۶۸ گرم",0.12121212121212122,0.12121212121212122,False,70.87167998543009
+"A raw: detect + Tesseract(no prep, no norm)",22,sign,True,خروج اضطراری,,1.0,1.0,False,70.87167998543009
+"A raw: detect + Tesseract(no prep, no norm)",23,label,True,"پنیر سفید
+۹۲۵۹۷ تومان
+وزن ۸۱۲ گرم","۷ تومان
+وزن ۱۱۳ گرم",0.48484848484848486,0.48484848484848486,False,95.59953899588436
+"A raw: detect + Tesseract(no prep, no norm)",23,plate,True,۴۴س۱۴۴۸۷,۱۸سلا,0.875,0.875,False,95.59953899588436
+"A raw: detect + Tesseract(no prep, no norm)",23,sign,True,پارکینگ عمومی,,1.0,1.0,False,95.59953899588436
+"A raw: detect + Tesseract(no prep, no norm)",24,plate,True,۸۹ت۲۹۳۹۶,سوببت۸۹۷,0.875,0.875,False,33.981385990045965
+"A raw: detect + Tesseract(no prep, no norm)",25,sign,True,به شیراز خوش آمدید,بهشیرازخوشمدید,0.2222222222222222,0.2222222222222222,False,57.36101500224322
+"A raw: detect + Tesseract(no prep, no norm)",26,label,True,"رب گوجه فرنگی
+۵۹۴۶۵ تومان
+وزن ۹۰۰ گرم","رب گوجه فرنگی
+۶۵ تومان
+وزن ‎٩۰۰‏ گرم",0.08108108108108109,0.16216216216216217,False,42.74727599113248
+"A raw: detect + Tesseract(no prep, no norm)",27,plate,True,۱۳ب۶۸۱۵۰,۰۶ب۲۱۳,0.75,0.75,False,52.16387199470773
+"A raw: detect + Tesseract(no prep, no norm)",27,sign,True,بیمارستان,,1.0,1.0,False,52.16387199470773
+"A raw: detect + Tesseract(no prep, no norm)",28,label,False,"برنج ایرانی
+۰۳۷۷۰۶ تومان
+وزن ۱۹۱ گرم",,1.0,1.0,False,20.648656995035708
+"A raw: detect + Tesseract(no prep, no norm)",28,sign,True,فروشگاه مرکزی,,1.0,1.0,False,20.648656995035708
+"A raw: detect + Tesseract(no prep, no norm)",29,label,False,"ماست محلی
+۰۸۱۱۳۲ تومان
+وزن ۸۷۰ گرم",,1.0,1.0,False,45.522322005126625
+"A raw: detect + Tesseract(no prep, no norm)",29,plate,True,۹۱د۱۳۲۱۴,۱تنانگ۲,0.875,0.875,False,45.522322005126625
+"A raw: detect + Tesseract(no prep, no norm)",30,plate,True,۰۶م۱۳۹۷۸,۶۸,0.75,0.75,False,27.13381400099024
+"A raw: detect + Tesseract(no prep, no norm)",31,sign,True,کتابخانه ملی,,1.0,1.0,False,20.39505200809799
+"A raw: detect + Tesseract(no prep, no norm)",32,label,True,"برنج ایرانی
+۶۰۸۴۸ تومان
+وزن ۸۵۰ گرم","بر ایرانی
+۸ تومان
+وزن ۸۵۰ گر م",0.2,0.2,False,42.796014982741326
+"A raw: detect + Tesseract(no prep, no norm)",33,plate,True,۶۷ل۲۰۸۵۰,۱۰۸۵۰,0.5,0.5,False,64.69947801087983
+"A raw: detect + Tesseract(no prep, no norm)",33,sign,True,کتابخانه ملی,,1.0,1.0,False,64.69947801087983
+"A raw: detect + Tesseract(no prep, no norm)",34,label,False,"ماست محلی
+۱۴۳۹۶ تومان
+وزن ۳۸۷ گرم",,1.0,1.0,False,39.61745399283245
+"A raw: detect + Tesseract(no prep, no norm)",34,sign,True,داروخانه شبانه روزی,داروخانه شبانه روزی,0.0,0.0,True,39.61745399283245
+"A raw: detect + Tesseract(no prep, no norm)",35,label,True,"ماست محلی
+۴۱۸۶۳۱ تومان
+وزن ۹۶۸ گرم","۱۸۶۳۱ تومان
+وزن ۹۶۸ گرم",0.3235294117647059,0.3235294117647059,False,73.1217990105506
+"A raw: detect + Tesseract(no prep, no norm)",35,sign,True,داروخانه شبانه روزی,داروخانه شبانه روزی,0.0,0.0,True,73.1217990105506
+"A raw: detect + Tesseract(no prep, no norm)",36,plate,True,۳۷ل۴۵۲۰۳,۹ص,1.0,1.0,False,31.925323011819273
+"A raw: detect + Tesseract(no prep, no norm)",37,sign,True,خروج اضطراری,,1.0,1.0,False,17.410968022886664
+"A raw: detect + Tesseract(no prep, no norm)",38,label,False,"عسل طبیعی
+۲۳۶۰۵ تومان
+وزن ۱۶۷ گرم",,1.0,1.0,False,38.94870899966918
+"A raw: detect + Tesseract(no prep, no norm)",39,plate,True,۶۳ن۹۴۵۵۲,۲ن۲۶۳,0.875,0.875,False,35.35923201707192
+"A raw: detect + Tesseract(no prep, no norm)",39,sign,False,ورود ممنوع,,1.0,1.0,False,35.35923201707192
+"A raw: detect + Tesseract(no prep, no norm)",40,label,True,"روغن زیتون
+۶۸۷۹۱۸ تومان
+وزن ۷۰۱ گرم","روغن زیتون
+۸ تومان
+وزن ۷۰۱ گرم",0.14285714285714285,0.14285714285714285,False,79.83707898529246
+"A raw: detect + Tesseract(no prep, no norm)",40,sign,True,کتابخانه ملی,,1.0,1.0,False,79.83707898529246
+"A raw: detect + Tesseract(no prep, no norm)",41,label,False,"ماست محلی
+۷۵۰۲۶ تومان
+وزن ۶۲۱ گرم",,1.0,1.0,False,59.13129300461151
+"A raw: detect + Tesseract(no prep, no norm)",41,plate,True,۷۱و۴۸۸۱۵,۹و,0.875,0.875,False,59.13129300461151
+"A raw: detect + Tesseract(no prep, no norm)",41,sign,False,بیمارستان,,1.0,1.0,False,59.13129300461151
+"A raw: detect + Tesseract(no prep, no norm)",42,plate,True,۶۹م۰۶۰۴۱,ص,1.0,1.0,False,31.652706005843356
+"A raw: detect + Tesseract(no prep, no norm)",43,sign,True,ورود ممنوع,,1.0,1.0,False,17.577561986399814
+"A raw: detect + Tesseract(no prep, no norm)",44,label,False,"رب گوجه فرنگی
+۶۵۸۹۸ تومان
+وزن ۹۶۲ گرم",,1.0,1.0,False,0.8497759990859777
+"A raw: detect + Tesseract(no prep, no norm)",45,plate,True,۵۶د۸۵۷۷۷,۷۱۷د۵۳,0.875,0.875,False,30.895172007149085
+"A raw: detect + Tesseract(no prep, no norm)",45,sign,False,بیمارستان,,1.0,1.0,False,30.895172007149085
+"A raw: detect + Tesseract(no prep, no norm)",46,label,True,"روغن زیتون
+۲۲۱۰۷ تومان
+وزن ۲۰۲ گرم","روغن زیتون
+۷ تومان
+وزن ۲۰۲ گرم",0.11764705882352941,0.11764705882352941,False,59.56160099594854
+"A raw: detect + Tesseract(no prep, no norm)",46,sign,True,فروشگاه مرکزی,,1.0,1.0,False,59.56160099594854
+"A raw: detect + Tesseract(no prep, no norm)",47,label,True,"پنیر سفید
+۳۰۵۲۰ تومان
+وزن ۰۲۲ گرم","۰ تومان
+وزن ۰۲۲ گرم",0.42424242424242425,0.42424242424242425,False,94.25763401668519
+"A raw: detect + Tesseract(no prep, no norm)",47,plate,True,۸۷پ۸۵۰۲۱,۹۵۸۷۵۲۱,0.625,0.625,False,94.25763401668519
+"A raw: detect + Tesseract(no prep, no norm)",47,sign,False,ایستگاه مترو,,1.0,1.0,False,94.25763401668519
+"A raw: detect + Tesseract(no prep, no norm)",48,plate,True,۷۳ی۰۰۳۸۳,۳۶۰۳۱۸,0.625,0.625,False,64.71014197450131
+"A raw: detect + Tesseract(no prep, no norm)",49,sign,True,داروخانه شبانه روزی,,1.0,1.0,False,21.04225498624146
+"A raw: detect + Tesseract(no prep, no norm)",50,label,True,"پنیر سفید
+۷۸۹۳۲۸ تومان
+وزن ۸۶۷ گرم","۸ توبان
+زر 0",0.7352941176470589,0.7352941176470589,False,35.75783999986015
+"A raw: detect + Tesseract(no prep, no norm)",51,plate,True,۱۷ن۳۹۹۵۴,دص,1.0,1.0,False,89.15457798866555
+"A raw: detect + Tesseract(no prep, no norm)",51,sign,True,بیمارستان,,1.0,1.0,False,89.15457798866555
+"A raw: detect + Tesseract(no prep, no norm)",52,label,True,"شیر کم چرب
+۱۸۸۳۸۸ تومان
+وزن ۱۸۵ گرم","شیر کم چرب
+۸ آتومان
+وزن ۱۸۵ گرم",0.17142857142857143,0.17142857142857143,False,73.80625701625831
+"A raw: detect + Tesseract(no prep, no norm)",52,sign,True,فروشگاه مرکزی,,1.0,1.0,False,73.80625701625831
+"A raw: detect + Tesseract(no prep, no norm)",53,label,True,"چای سبز
+۲۸۱۴۲ تومان
+وزن ۷۲۴ گرم","چای سب
+۲ تهمان
+ورن ۷۳۴ گرم",0.25806451612903225,0.25806451612903225,False,62.39159297547303
+"A raw: detect + Tesseract(no prep, no norm)",53,plate,True,۱۳ص۲۴۹۳۲,۳ص۲۱۳,0.5,0.5,False,62.39159297547303
+"A raw: detect + Tesseract(no prep, no norm)",54,plate,True,۰۹ی۶۸۶۸۰,۱۹ی۰,0.625,0.625,False,32.48484298819676
+"A raw: detect + Tesseract(no prep, no norm)",55,sign,True,بیمارستان,,1.0,1.0,False,93.82162801921368
+"A raw: detect + Tesseract(no prep, no norm)",56,label,True,"چای سبز
+۲۳۵۶۸۶ تومان
+وزن ۳۵۱ گرم","چای سبز
+۶ تومان
+وزن ۳۵۱ گرم",0.15625,0.15625,False,61.37688900344074
+"A raw: detect + Tesseract(no prep, no norm)",57,sign,True,به شیراز خوش آمدید,به شیراز خوش آمدید,0.0,0.0,True,84.94171398342587
+"A raw: detect + Tesseract(no prep, no norm)",57,plate,True,۷۵د۰۹۴۴۰,۹۵در,0.75,0.75,False,84.94171398342587
+"A raw: detect + Tesseract(no prep, no norm)",58,label,True,"پنیر سفید
+۶۸۹۲۳۶ تومان
+وزن ۵۸۳ گرم","۶ تومان
+وزن ۵۸۳ گرم",0.4411764705882353,0.4411764705882353,False,82.83328198012896
+"A raw: detect + Tesseract(no prep, no norm)",58,sign,True,دانشگاه تهران,دانشگاه تهران,0.0,0.0,True,82.83328198012896
+"A raw: detect + Tesseract(no prep, no norm)",59,label,False,"برنج ایرانی
+۹۰۵۹۲ تومان
+وزن ۳۶۷ گرم",,1.0,1.0,False,100.60926197911613
+"A raw: detect + Tesseract(no prep, no norm)",59,sign,True,بیمارستان,,1.0,1.0,False,100.60926197911613
+B + crop preparation,0,plate,True,۰۷س۲۰۱۷۴,۲۱ل۰۷۲۷۴,0.75,0.75,False,37.906966026639566
+B + crop preparation,1,sign,True,ایستگاه مترو,ایستگاه مترو,0.0,0.0,True,51.105871971230954
+B + crop preparation,2,label,True,"عسل طبیعی
+۳۶۵۴۶ تومان
+وزن ۱۸۴ گرم","۶ تومان
+وزن ۱۸۴ گرم",0.42424242424242425,0.42424242424242425,False,95.66146801807918
+B + crop preparation,3,plate,True,۹۵د۲۳۸۱۸,"۳
+٩۰۸ ۸",0.75,0.75,False,89.81281801243313
+B + crop preparation,3,sign,True,ورود ممنوع,,1.0,1.0,False,89.81281801243313
+B + crop preparation,4,label,False,"ماست محلی
+۳۵۳۳۲۶ تومان
+وزن ۱۲۴ گرم",,1.0,1.0,False,18.480628001270816
+B + crop preparation,4,sign,True,خروج اضطراری,,1.0,1.0,False,18.480628001270816
+B + crop preparation,5,label,True,"شیر کم چرب
+۸۵۵۴۳ تومان
+وزن ۷۸۹ گرم","ظیرکم جرب
+۳ ستوماری
+وزدم ‎٩‏ کرج",0.47058823529411764,0.5,False,104.20753600192256
+B + crop preparation,5,plate,True,۰۱و۱۸۵۶۹,را,1.0,1.0,False,104.20753600192256
+B + crop preparation,6,plate,True,۶۱ی۸۷۵۶۳,۷۱۶۷۳,0.625,0.625,False,47.89051099214703
+B + crop preparation,7,sign,False,فروشگاه مرکزی,,1.0,1.0,False,0.8682650222908705
+B + crop preparation,8,label,True,"شیر کم چرب
+۷۰۵۹۴ تومان
+وزن ۰۲۱ گرم","شیر کم چرب
+۴ تومان
+وزن ۰۲۱ گرم",0.11764705882352941,0.11764705882352941,False,55.856162012787536
+B + crop preparation,9,sign,True,پارکینگ عمومی,,1.0,1.0,False,59.12116100080311
+B + crop preparation,9,plate,True,۳۱ب۵۲۴۷۱,رباع۲جبتربا,1.25,1.25,False,59.12116100080311
+B + crop preparation,10,label,False,"برنج ایرانی
+۰۳۷۹۹ تومان
+وزن ۹۹۱ گرم",,1.0,1.0,False,23.306895018322393
+B + crop preparation,10,sign,True,بیمارستان,,1.0,1.0,False,23.306895018322393
+B + crop preparation,11,label,True,"رب گوجه فرنگی
+۱۷۵۴۸۱ تومان
+وزن ۸۳۶ گرم","رب گوجه فرنگی
+۸۱ تومان
+وزن ۸۳۶ گرم",0.10526315789473684,0.10526315789473684,False,117.52581200562418
+B + crop preparation,11,plate,True,۳۳س۶۸۲۷۰,۲۷ستا,0.875,0.875,False,117.52581200562418
+B + crop preparation,11,sign,True,دانشگاه تهران,,1.0,1.0,False,117.52581200562418
+B + crop preparation,12,plate,True,۲۷ت۱۴۹۰۴,۷۲,0.875,0.875,False,56.20049199205823
+B + crop preparation,13,sign,True,ایستگاه مترو,,1.0,1.0,False,20.329309976659715
+B + crop preparation,14,label,True,"عسل طبیعی
+۵۱۲۰۴۳ تومان
+وزن ۶۵۲ گرم","۳ تومان
+وزن ۶۵۲ گرم",0.4411764705882353,0.4411764705882353,False,35.38194199791178
+B + crop preparation,15,sign,False,دانشگاه تهران,,1.0,1.0,False,73.76442599343136
+B + crop preparation,15,plate,True,۴۱ن۹۷۰۴۷,اقا,1.0,1.0,False,73.76442599343136
+B + crop preparation,16,label,True,"چای سبز
+۲۵۶۳۳ تومان
+وزن ۱۱۳ گرم","چای سبز
+۲ تومان
+وزن ۱۳ گرم",0.16129032258064516,0.16129032258064516,False,65.84115998703055
+B + crop preparation,16,sign,True,کتابخانه ملی,,1.0,1.0,False,65.84115998703055
+B + crop preparation,17,label,False,"شیر کم چرب
+۰۱۶۶۸ تومان
+وزن ۸۱۱ گرم",,1.0,1.0,False,57.09296200075187
+B + crop preparation,17,plate,True,۱۲پ۶۸۴۸۷,۲۹۱۲ب۵,0.875,0.875,False,57.09296200075187
+B + crop preparation,17,sign,False,داروخانه شبانه روزی,,1.0,1.0,False,57.09296200075187
+B + crop preparation,18,plate,True,۸۵د۵۴۵۵۸,۱۰۵۱,0.875,0.875,False,31.82974801165983
+B + crop preparation,19,sign,True,ورود ممنوع,,1.0,1.0,False,17.692069988697767
+B + crop preparation,20,label,True,"شیر کم چرب
+۶۷۳۶۸ تومان
+وزن ۴۱۳ گرم","شیر کم چرب
+۸ تومان
+وزن ۴۱۳ گرم",0.11764705882352941,0.11764705882352941,False,43.393572996137664
+B + crop preparation,21,plate,True,۴۰ه۰۲۲۴۱,۲۰۵۰۳۱۱,0.625,0.625,False,49.39204000402242
+B + crop preparation,21,sign,True,دانشگاه تهران,,1.0,1.0,False,49.39204000402242
+B + crop preparation,22,label,True,"ماست محلی
+۷۸۸۲۲ تومان
+وزن ۶۶۸ گرم","ماست محلی
+۲ تومان
+وزن ۶۶۸ گرم",0.12121212121212122,0.12121212121212122,False,72.07696099067107
+B + crop preparation,22,sign,True,خروج اضطراری,,1.0,1.0,False,72.07696099067107
+B + crop preparation,23,label,True,"پنیر سفید
+۹۲۵۹۷ تومان
+وزن ۸۱۲ گرم","۷ تومان
+وزن ۱۱۳ گرم",0.48484848484848486,0.48484848484848486,False,83.5562729917001
+B + crop preparation,23,plate,True,۴۴س۱۴۴۸۷,۱۸سلا,0.875,0.875,False,83.5562729917001
+B + crop preparation,23,sign,True,پارکینگ عمومی,,1.0,1.0,False,83.5562729917001
+B + crop preparation,24,plate,True,۸۹ت۲۹۳۹۶,سوببت۸۹۷,0.875,0.875,False,42.87278500851244
+B + crop preparation,25,sign,True,به شیراز خوش آمدید,بهشیرازخوشمدید,0.2222222222222222,0.2222222222222222,False,28.29528698930517
+B + crop preparation,26,label,True,"رب گوجه فرنگی
+۵۹۴۶۵ تومان
+وزن ۹۰۰ گرم","رب گوجه فرنگی
+۶۵ تومان
+وزن ‎٩۰۰‏ گرم",0.08108108108108109,0.16216216216216217,False,45.91093698400073
+B + crop preparation,27,plate,True,۱۳ب۶۸۱۵۰,۰۶ب۲۱۳,0.75,0.75,False,51.28449297626503
+B + crop preparation,27,sign,True,بیمارستان,,1.0,1.0,False,51.28449297626503
+B + crop preparation,28,label,False,"برنج ایرانی
+۰۳۷۷۰۶ تومان
+وزن ۱۹۱ گرم",,1.0,1.0,False,18.945432995678857
+B + crop preparation,28,sign,True,فروشگاه مرکزی,,1.0,1.0,False,18.945432995678857
+B + crop preparation,29,label,False,"ماست محلی
+۰۸۱۱۳۲ تومان
+وزن ۸۷۰ گرم",,1.0,1.0,False,37.7485069911927
+B + crop preparation,29,plate,True,۹۱د۱۳۲۱۴,۱تنانگ۲,0.875,0.875,False,37.7485069911927
+B + crop preparation,30,plate,True,۰۶م۱۳۹۷۸,۶۸,0.75,0.75,False,28.641440003411844
+B + crop preparation,31,sign,True,کتابخانه ملی,,1.0,1.0,False,18.34274100838229
+B + crop preparation,32,label,True,"برنج ایرانی
+۶۰۸۴۸ تومان
+وزن ۸۵۰ گرم","بر ایرانی
+۸ تومان
+وزن ۸۵۰ گر م",0.2,0.2,False,44.57395101781003
+B + crop preparation,33,plate,True,۶۷ل۲۰۸۵۰,۱۰۸۵۰,0.5,0.5,False,60.32959601725452
+B + crop preparation,33,sign,True,کتابخانه ملی,,1.0,1.0,False,60.32959601725452
+B + crop preparation,34,label,False,"ماست محلی
+۱۴۳۹۶ تومان
+وزن ۳۸۷ گرم",,1.0,1.0,False,30.573772004572675
+B + crop preparation,34,sign,True,داروخانه شبانه روزی,داروخانه شبانه روزی,0.0,0.0,True,30.573772004572675
+B + crop preparation,35,label,True,"ماست محلی
+۴۱۸۶۳۱ تومان
+وزن ۹۶۸ گرم","۱۸۶۳۱ تومان
+وزن ۹۶۸ گرم",0.3235294117647059,0.3235294117647059,False,64.78513800539076
+B + crop preparation,35,sign,True,داروخانه شبانه روزی,داروخانه شبانه روزی,0.0,0.0,True,64.78513800539076
+B + crop preparation,36,plate,True,۳۷ل۴۵۲۰۳,۹ص,1.0,1.0,False,38.87774399481714
+B + crop preparation,37,sign,True,خروج اضطراری,,1.0,1.0,False,26.16511899395846
+B + crop preparation,38,label,False,"عسل طبیعی
+۲۳۶۰۵ تومان
+وزن ۱۶۷ گرم",,1.0,1.0,False,25.28677199734375
+B + crop preparation,39,plate,True,۶۳ن۹۴۵۵۲,۲ن۲۶۳,0.875,0.875,False,30.07903997786343
+B + crop preparation,39,sign,False,ورود ممنوع,,1.0,1.0,False,30.07903997786343
+B + crop preparation,40,label,True,"روغن زیتون
+۶۸۷۹۱۸ تومان
+وزن ۷۰۱ گرم","روغن زیتون
+۸ تومان
+وزن ۷۰۱ گرم",0.14285714285714285,0.14285714285714285,False,58.23308398248628
+B + crop preparation,40,sign,True,کتابخانه ملی,,1.0,1.0,False,58.23308398248628
+B + crop preparation,41,label,False,"ماست محلی
+۷۵۰۲۶ تومان
+وزن ۶۲۱ گرم",,1.0,1.0,False,57.017982995603234
+B + crop preparation,41,plate,True,۷۱و۴۸۸۱۵,۹و,0.875,0.875,False,57.017982995603234
+B + crop preparation,41,sign,False,بیمارستان,,1.0,1.0,False,57.017982995603234
+B + crop preparation,42,plate,True,۶۹م۰۶۰۴۱,ص,1.0,1.0,False,33.25771898380481
+B + crop preparation,43,sign,True,ورود ممنوع,,1.0,1.0,False,19.203270989237353
+B + crop preparation,44,label,False,"رب گوجه فرنگی
+۶۵۸۹۸ تومان
+وزن ۹۶۲ گرم",,1.0,1.0,False,1.1407010024413466
+B + crop preparation,45,plate,True,۵۶د۸۵۷۷۷,۷۱۷د۵۳,0.875,0.875,False,36.82032698998228
+B + crop preparation,45,sign,False,بیمارستان,,1.0,1.0,False,36.82032698998228
+B + crop preparation,46,label,True,"روغن زیتون
+۲۲۱۰۷ تومان
+وزن ۲۰۲ گرم","روغن زیتون
+۷ تومان
+وزن ۲۰۲ گرم",0.11764705882352941,0.11764705882352941,False,61.76785001298413
+B + crop preparation,46,sign,True,فروشگاه مرکزی,,1.0,1.0,False,61.76785001298413
+B + crop preparation,47,label,True,"پنیر سفید
+۳۰۵۲۰ تومان
+وزن ۰۲۲ گرم","۰ تومان
+وزن ۰۲۲ گرم",0.42424242424242425,0.42424242424242425,False,103.18894500960596
+B + crop preparation,47,plate,True,۸۷پ۸۵۰۲۱,۹۵۸۷۵۲۱,0.625,0.625,False,103.18894500960596
+B + crop preparation,47,sign,False,ایستگاه مترو,,1.0,1.0,False,103.18894500960596
+B + crop preparation,48,plate,True,۷۳ی۰۰۳۸۳,۳۶۰۳۱۸,0.625,0.625,False,45.642501005204394
+B + crop preparation,49,sign,True,داروخانه شبانه روزی,,1.0,1.0,False,18.42837198637426
+B + crop preparation,50,label,True,"پنیر سفید
+۷۸۹۳۲۸ تومان
+وزن ۸۶۷ گرم","۸ توبان
+زر 0",0.7352941176470589,0.7352941176470589,False,43.71950798667967
+B + crop preparation,51,plate,True,۱۷ن۳۹۹۵۴,دص,1.0,1.0,False,55.04097600351088
+B + crop preparation,51,sign,True,بیمارستان,,1.0,1.0,False,55.04097600351088
+B + crop preparation,52,label,True,"شیر کم چرب
+۱۸۸۳۸۸ تومان
+وزن ۱۸۵ گرم","شیر کم چرب
+۸ آتومان
+وزن ۱۸۵ گرم",0.17142857142857143,0.17142857142857143,False,74.72318899817765
+B + crop preparation,52,sign,True,فروشگاه مرکزی,,1.0,1.0,False,74.72318899817765
+B + crop preparation,53,label,True,"چای سبز
+۲۸۱۴۲ تومان
+وزن ۷۲۴ گرم","چای سب
+۲ تهمان
+ورن ۷۳۴ گرم",0.25806451612903225,0.25806451612903225,False,92.96040999470279
+B + crop preparation,53,plate,True,۱۳ص۲۴۹۳۲,۳ص۲۱۳,0.5,0.5,False,92.96040999470279
+B + crop preparation,54,plate,True,۰۹ی۶۸۶۸۰,۱۹ی۰,0.625,0.625,False,34.53805300523527
+B + crop preparation,55,sign,True,بیمارستان,,1.0,1.0,False,81.7840069939848
+B + crop preparation,56,label,True,"چای سبز
+۲۳۵۶۸۶ تومان
+وزن ۳۵۱ گرم","چای سبز
+۶ تومان
+وزن ۳۵۱ گرم",0.15625,0.15625,False,41.54528700746596
+B + crop preparation,57,sign,True,به شیراز خوش آمدید,به شیراز خوش آمدید,0.0,0.0,True,61.74176698550582
+B + crop preparation,57,plate,True,۷۵د۰۹۴۴۰,۹۵در,0.75,0.75,False,61.74176698550582
+B + crop preparation,58,label,True,"پنیر سفید
+۶۸۹۲۳۶ تومان
+وزن ۵۸۳ گرم","۶ تومان
+وزن ۵۸۳ گرم",0.4411764705882353,0.4411764705882353,False,65.66580801154487
+B + crop preparation,58,sign,True,دانشگاه تهران,دانشگاه تهران,0.0,0.0,True,65.66580801154487
+B + crop preparation,59,label,False,"برنج ایرانی
+۹۰۵۹۲ تومان
+وزن ۳۶۷ گرم",,1.0,1.0,False,75.58493802207522
+B + crop preparation,59,sign,True,بیمارستان,,1.0,1.0,False,75.58493802207522
+C + normalisation,0,plate,True,۰۷س۲۰۱۷۴,۲۱ل۰۷۲۷۴,0.75,0.75,False,35.947442025644705
+C + normalisation,1,sign,True,ایستگاه مترو,ایستگاه مترو,0.0,0.0,True,59.168753010453656
+C + normalisation,2,label,True,"عسل طبیعی
+۳۶۵۴۶ تومان
+وزن ۱۸۴ گرم",۶ تومان وزن ۱۸۴ گرم,0.42424242424242425,0.42424242424242425,False,84.05189201585017
+C + normalisation,3,plate,True,۹۵د۲۳۸۱۸,۳ ۹۰۸ ۸,0.75,0.75,False,60.50640798639506
+C + normalisation,3,sign,True,ورود ممنوع,,1.0,1.0,False,60.50640798639506
+C + normalisation,4,label,False,"ماست محلی
+۳۵۳۳۲۶ تومان
+وزن ۱۲۴ گرم",,1.0,1.0,False,17.286054993746802
+C + normalisation,4,sign,True,خروج اضطراری,,1.0,1.0,False,17.286054993746802
+C + normalisation,5,label,True,"شیر کم چرب
+۸۵۵۴۳ تومان
+وزن ۷۸۹ گرم",ظیرکم جرب ۳ ستوماری وزدم ۹ کرج,0.47058823529411764,0.47058823529411764,False,86.20845200493932
+C + normalisation,5,plate,True,۰۱و۱۸۵۶۹,را,1.0,1.0,False,86.20845200493932
+C + normalisation,6,plate,True,۶۱ی۸۷۵۶۳,۷۱۶۷۳,0.625,0.625,False,35.854924004524946
+C + normalisation,7,sign,False,فروشگاه مرکزی,,1.0,1.0,False,0.9240400104317814
+C + normalisation,8,label,True,"شیر کم چرب
+۷۰۵۹۴ تومان
+وزن ۰۲۱ گرم",شیر کم چرب ۴ تومان وزن ۰۲۱ گرم,0.11764705882352941,0.11764705882352941,False,40.61422700760886
+C + normalisation,9,sign,True,پارکینگ عمومی,,1.0,1.0,False,52.5880669883918
+C + normalisation,9,plate,True,۳۱ب۵۲۴۷۱,رباع۲جبتربا,1.25,1.25,False,52.5880669883918
+C + normalisation,10,label,False,"برنج ایرانی
+۰۳۷۹۹ تومان
+وزن ۹۹۱ گرم",,1.0,1.0,False,17.990604013903067
+C + normalisation,10,sign,True,بیمارستان,,1.0,1.0,False,17.990604013903067
+C + normalisation,11,label,True,"رب گوجه فرنگی
+۱۷۵۴۸۱ تومان
+وزن ۸۳۶ گرم",رب گوجه فرنگی ۸۱ تومان وزن ۸۳۶ گرم,0.10526315789473684,0.10526315789473684,False,110.82424299092963
+C + normalisation,11,plate,True,۳۳س۶۸۲۷۰,۲۷ستا,0.875,0.875,False,110.82424299092963
+C + normalisation,11,sign,True,دانشگاه تهران,,1.0,1.0,False,110.82424299092963
+C + normalisation,12,plate,True,۲۷ت۱۴۹۰۴,۷۲,0.875,0.875,False,45.68383499281481
+C + normalisation,13,sign,True,ایستگاه مترو,,1.0,1.0,False,21.028251998359337
+C + normalisation,14,label,True,"عسل طبیعی
+۵۱۲۰۴۳ تومان
+وزن ۶۵۲ گرم",۳ تومان وزن ۶۵۲ گرم,0.4411764705882353,0.4411764705882353,False,40.09280898026191
+C + normalisation,15,sign,False,دانشگاه تهران,,1.0,1.0,False,67.83800199627876
+C + normalisation,15,plate,True,۴۱ن۹۷۰۴۷,اقا,1.0,1.0,False,67.83800199627876
+C + normalisation,16,label,True,"چای سبز
+۲۵۶۳۳ تومان
+وزن ۱۱۳ گرم",چای سبز ۲ تومان وزن ۱۳ گرم,0.16129032258064516,0.16129032258064516,False,71.65102998260409
+C + normalisation,16,sign,True,کتابخانه ملی,,1.0,1.0,False,71.65102998260409
+C + normalisation,17,label,False,"شیر کم چرب
+۰۱۶۶۸ تومان
+وزن ۸۱۱ گرم",,1.0,1.0,False,59.026153990998864
+C + normalisation,17,plate,True,۱۲پ۶۸۴۸۷,۲۹۱۲ب۵,0.875,0.875,False,59.026153990998864
+C + normalisation,17,sign,False,داروخانه شبانه روزی,,1.0,1.0,False,59.026153990998864
+C + normalisation,18,plate,True,۸۵د۵۴۵۵۸,۱۰۵۱,0.875,0.875,False,36.17612298694439
+C + normalisation,19,sign,True,ورود ممنوع,,1.0,1.0,False,16.948341013630852
+C + normalisation,20,label,True,"شیر کم چرب
+۶۷۳۶۸ تومان
+وزن ۴۱۳ گرم",شیر کم چرب ۸ تومان وزن ۴۱۳ گرم,0.11764705882352941,0.11764705882352941,False,47.88621800253168
+C + normalisation,21,plate,True,۴۰ه۰۲۲۴۱,۲۰۵۰۳۱۱,0.625,0.625,False,59.84730797354132
+C + normalisation,21,sign,True,دانشگاه تهران,,1.0,1.0,False,59.84730797354132
+C + normalisation,22,label,True,"ماست محلی
+۷۸۸۲۲ تومان
+وزن ۶۶۸ گرم",ماست محلی ۲ تومان وزن ۶۶۸ گرم,0.12121212121212122,0.12121212121212122,False,72.67880198196508
+C + normalisation,22,sign,True,خروج اضطراری,,1.0,1.0,False,72.67880198196508
+C + normalisation,23,label,True,"پنیر سفید
+۹۲۵۹۷ تومان
+وزن ۸۱۲ گرم",۷ تومان وزن ۱۱۳ گرم,0.48484848484848486,0.48484848484848486,False,83.147273020586
+C + normalisation,23,plate,True,۴۴س۱۴۴۸۷,۱۸سلا,0.875,0.875,False,83.147273020586
+C + normalisation,23,sign,True,پارکینگ عمومی,,1.0,1.0,False,83.147273020586
+C + normalisation,24,plate,True,۸۹ت۲۹۳۹۶,سوببت۸۹۷,0.875,0.875,False,49.372206995030865
+C + normalisation,25,sign,True,به شیراز خوش آمدید,بهشیرازخوشمدید,0.2222222222222222,0.2222222222222222,False,29.866997007047758
+C + normalisation,26,label,True,"رب گوجه فرنگی
+۵۹۴۶۵ تومان
+وزن ۹۰۰ گرم",رب گوجه فرنگی ۶۵ تومان وزن ۹۰۰ گرم,0.08108108108108109,0.08108108108108109,False,53.18805100978352
+C + normalisation,27,plate,True,۱۳ب۶۸۱۵۰,۰۶ب۲۱۳,0.75,0.75,False,57.87560099270195
+C + normalisation,27,sign,True,بیمارستان,,1.0,1.0,False,57.87560099270195
+C + normalisation,28,label,False,"برنج ایرانی
+۰۳۷۷۰۶ تومان
+وزن ۱۹۱ گرم",,1.0,1.0,False,28.475845989305526
+C + normalisation,28,sign,True,فروشگاه مرکزی,,1.0,1.0,False,28.475845989305526
+C + normalisation,29,label,False,"ماست محلی
+۰۸۱۱۳۲ تومان
+وزن ۸۷۰ گرم",,1.0,1.0,False,47.28634000639431
+C + normalisation,29,plate,True,۹۱د۱۳۲۱۴,۱تنانگ۲,0.875,0.875,False,47.28634000639431
+C + normalisation,30,plate,True,۰۶م۱۳۹۷۸,۶۸,0.75,0.75,False,28.018415992846712
+C + normalisation,31,sign,True,کتابخانه ملی,,1.0,1.0,False,18.212508992291987
+C + normalisation,32,label,True,"برنج ایرانی
+۶۰۸۴۸ تومان
+وزن ۸۵۰ گرم",بر ایرانی ۸ تومان وزن ۸۵۰ گر م,0.2,0.2,False,42.149189976044
+C + normalisation,33,plate,True,۶۷ل۲۰۸۵۰,۱۰۸۵۰,0.5,0.5,False,57.258315006038174
+C + normalisation,33,sign,True,کتابخانه ملی,,1.0,1.0,False,57.258315006038174
+C + normalisation,34,label,False,"ماست محلی
+۱۴۳۹۶ تومان
+وزن ۳۸۷ گرم",,1.0,1.0,False,42.01727200415917
+C + normalisation,34,sign,True,داروخانه شبانه روزی,داروخانه شبانه روزی,0.0,0.0,True,42.01727200415917
+C + normalisation,35,label,True,"ماست محلی
+۴۱۸۶۳۱ تومان
+وزن ۹۶۸ گرم",۱۸۶۳۱ تومان وزن ۹۶۸ گرم,0.3235294117647059,0.3235294117647059,False,77.52705499297008
+C + normalisation,35,sign,True,داروخانه شبانه روزی,داروخانه شبانه روزی,0.0,0.0,True,77.52705499297008
+C + normalisation,36,plate,True,۳۷ل۴۵۲۰۳,۹ص,1.0,1.0,False,31.813234993023798
+C + normalisation,37,sign,True,خروج اضطراری,,1.0,1.0,False,21.089765010401607
+C + normalisation,38,label,False,"عسل طبیعی
+۲۳۶۰۵ تومان
+وزن ۱۶۷ گرم",,1.0,1.0,False,33.14308199333027
+C + normalisation,39,plate,True,۶۳ن۹۴۵۵۲,۲ن۲۶۳,0.875,0.875,False,31.4892040041741
+C + normalisation,39,sign,False,ورود ممنوع,,1.0,1.0,False,31.4892040041741
+C + normalisation,40,label,True,"روغن زیتون
+۶۸۷۹۱۸ تومان
+وزن ۷۰۱ گرم",روغن زیتون ۸ تومان وزن ۷۰۱ گرم,0.14285714285714285,0.14285714285714285,False,75.71490798727609
+C + normalisation,40,sign,True,کتابخانه ملی,,1.0,1.0,False,75.71490798727609
+C + normalisation,41,label,False,"ماست محلی
+۷۵۰۲۶ تومان
+وزن ۶۲۱ گرم",,1.0,1.0,False,78.82174398400821
+C + normalisation,41,plate,True,۷۱و۴۸۸۱۵,۹و,0.875,0.875,False,78.82174398400821
+C + normalisation,41,sign,False,بیمارستان,,1.0,1.0,False,78.82174398400821
+C + normalisation,42,plate,True,۶۹م۰۶۰۴۱,ص,1.0,1.0,False,37.48307301430032
+C + normalisation,43,sign,True,ورود ممنوع,,1.0,1.0,False,18.926983990240842
+C + normalisation,44,label,False,"رب گوجه فرنگی
+۶۵۸۹۸ تومان
+وزن ۹۶۲ گرم",,1.0,1.0,False,1.0200329998042434
+C + normalisation,45,plate,True,۵۶د۸۵۷۷۷,۷۱۷د۵۳,0.875,0.875,False,28.585627005668357
+C + normalisation,45,sign,False,بیمارستان,,1.0,1.0,False,28.585627005668357
+C + normalisation,46,label,True,"روغن زیتون
+۲۲۱۰۷ تومان
+وزن ۲۰۲ گرم",روغن زیتون ۷ تومان وزن ۲۰۲ گرم,0.11764705882352941,0.11764705882352941,False,73.8330910098739
+C + normalisation,46,sign,True,فروشگاه مرکزی,,1.0,1.0,False,73.8330910098739
+C + normalisation,47,label,True,"پنیر سفید
+۳۰۵۲۰ تومان
+وزن ۰۲۲ گرم",۰ تومان وزن ۰۲۲ گرم,0.42424242424242425,0.42424242424242425,False,115.63956999452785
+C + normalisation,47,plate,True,۸۷پ۸۵۰۲۱,۹۵۸۷۵۲۱,0.625,0.625,False,115.63956999452785
+C + normalisation,47,sign,False,ایستگاه مترو,,1.0,1.0,False,115.63956999452785
+C + normalisation,48,plate,True,۷۳ی۰۰۳۸۳,۳۶۰۳۱۸,0.625,0.625,False,59.903411980485544
+C + normalisation,49,sign,True,داروخانه شبانه روزی,,1.0,1.0,False,21.024277986725792
+C + normalisation,50,label,True,"پنیر سفید
+۷۸۹۳۲۸ تومان
+وزن ۸۶۷ گرم",۸ توبان زر ۰,0.7352941176470589,0.7352941176470589,False,38.3595910097938
+C + normalisation,51,plate,True,۱۷ن۳۹۹۵۴,دص,1.0,1.0,False,54.397047992097214
+C + normalisation,51,sign,True,بیمارستان,,1.0,1.0,False,54.397047992097214
+C + normalisation,52,label,True,"شیر کم چرب
+۱۸۸۳۸۸ تومان
+وزن ۱۸۵ گرم",شیر کم چرب ۸ آتومان وزن ۱۸۵ گرم,0.17142857142857143,0.17142857142857143,False,69.447054003831
+C + normalisation,52,sign,True,فروشگاه مرکزی,,1.0,1.0,False,69.447054003831
+C + normalisation,53,label,True,"چای سبز
+۲۸۱۴۲ تومان
+وزن ۷۲۴ گرم",چای سب ۲ تهمان ورن ۷۳۴ گرم,0.25806451612903225,0.25806451612903225,False,86.15847799228504
+C + normalisation,53,plate,True,۱۳ص۲۴۹۳۲,۳ص۲۱۳,0.5,0.5,False,86.15847799228504
+C + normalisation,54,plate,True,۰۹ی۶۸۶۸۰,۱۹ی۰,0.625,0.625,False,34.88983999704942
+C + normalisation,55,sign,True,بیمارستان,,1.0,1.0,False,88.20372400805354
+C + normalisation,56,label,True,"چای سبز
+۲۳۵۶۸۶ تومان
+وزن ۳۵۱ گرم",چای سبز ۶ تومان وزن ۳۵۱ گرم,0.15625,0.15625,False,44.607919990085065
+C + normalisation,57,sign,True,به شیراز خوش آمدید,به شیراز خوش آمدید,0.0,0.0,True,64.92003999301232
+C + normalisation,57,plate,True,۷۵د۰۹۴۴۰,۹۵در,0.75,0.75,False,64.92003999301232
+C + normalisation,58,label,True,"پنیر سفید
+۶۸۹۲۳۶ تومان
+وزن ۵۸۳ گرم",۶ تومان وزن ۵۸۳ گرم,0.4411764705882353,0.4411764705882353,False,74.82531500863843
+C + normalisation,58,sign,True,دانشگاه تهران,دانشگاه تهران,0.0,0.0,True,74.82531500863843
+C + normalisation,59,label,False,"برنج ایرانی
+۹۰۵۹۲ تومان
+وزن ۳۶۷ گرم",,1.0,1.0,False,79.37579101417214
+C + normalisation,59,sign,True,بیمارستان,,1.0,1.0,False,79.37579101417214
+D + structured plate reader,0,plate,True,۰۷س۲۰۱۷۴,۰۷س۲۰۱۷۴,0.0,0.0,True,2.9147609893698245
+D + structured plate reader,1,sign,True,ایستگاه مترو,ایستگاه مترو,0.0,0.0,True,53.10304299928248
+D + structured plate reader,2,label,True,"عسل طبیعی
+۳۶۵۴۶ تومان
+وزن ۱۸۴ گرم",۶ تومان وزن ۱۸۴ گرم,0.42424242424242425,0.42424242424242425,False,79.7159899957478
+D + structured plate reader,3,plate,True,۹۵د۲۳۸۱۸,۳ ۹۰۸ ۸,0.75,0.75,False,68.66808602353558
+D + structured plate reader,3,sign,True,ورود ممنوع,,1.0,1.0,False,68.66808602353558
+D + structured plate reader,4,label,False,"ماست محلی
+۳۵۳۳۲۶ تومان
+وزن ۱۲۴ گرم",,1.0,1.0,False,19.62140601244755
+D + structured plate reader,4,sign,True,خروج اضطراری,,1.0,1.0,False,19.62140601244755
+D + structured plate reader,5,label,True,"شیر کم چرب
+۸۵۵۴۳ تومان
+وزن ۷۸۹ گرم",ظیرکم جرب ۳ ستوماری وزدم ۹ کرج,0.47058823529411764,0.47058823529411764,False,48.867887002415955
+D + structured plate reader,5,plate,True,۰۱و۱۸۵۶۹,۰۱و۱۸۵۶۹,0.0,0.0,True,48.867887002415955
+D + structured plate reader,6,plate,True,۶۱ی۸۷۵۶۳,۶۱ی۸۷۰۶۳,0.125,0.125,False,3.204915003152564
+D + structured plate reader,7,sign,False,فروشگاه مرکزی,,1.0,1.0,False,0.7505989924538881
+D + structured plate reader,8,label,True,"شیر کم چرب
+۷۰۵۹۴ تومان
+وزن ۰۲۱ گرم",شیر کم چرب ۴ تومان وزن ۰۲۱ گرم,0.11764705882352941,0.11764705882352941,False,45.867998007452115
+D + structured plate reader,9,sign,True,پارکینگ عمومی,,1.0,1.0,False,22.273192007560283
+D + structured plate reader,9,plate,True,۳۱ب۵۲۴۷۱,۳۱ب۵۲۴۷۱,0.0,0.0,True,22.273192007560283
+D + structured plate reader,10,label,False,"برنج ایرانی
+۰۳۷۹۹ تومان
+وزن ۹۹۱ گرم",,1.0,1.0,False,20.6693819782231
+D + structured plate reader,10,sign,True,بیمارستان,,1.0,1.0,False,20.6693819782231
+D + structured plate reader,11,label,True,"رب گوجه فرنگی
+۱۷۵۴۸۱ تومان
+وزن ۸۳۶ گرم",رب گوجه فرنگی ۸۱ تومان وزن ۸۳۶ گرم,0.10526315789473684,0.10526315789473684,False,64.92005399195477
+D + structured plate reader,11,plate,True,۳۳س۶۸۲۷۰,,1.0,1.0,False,64.92005399195477
+D + structured plate reader,11,sign,True,دانشگاه تهران,,1.0,1.0,False,64.92005399195477
+D + structured plate reader,12,plate,True,۲۷ت۱۴۹۰۴,,1.0,1.0,False,2.019122999627143
+D + structured plate reader,13,sign,True,ایستگاه مترو,,1.0,1.0,False,25.43213899480179
+D + structured plate reader,14,label,True,"عسل طبیعی
+۵۱۲۰۴۳ تومان
+وزن ۶۵۲ گرم",۳ تومان وزن ۶۵۲ گرم,0.4411764705882353,0.4411764705882353,False,37.295620975783095
+D + structured plate reader,15,sign,False,دانشگاه تهران,,1.0,1.0,False,31.87737101688981
+D + structured plate reader,15,plate,True,۴۱ن۹۷۰۴۷,۴۱ن۹۷۰۴۷,0.0,0.0,True,31.87737101688981
+D + structured plate reader,16,label,True,"چای سبز
+۲۵۶۳۳ تومان
+وزن ۱۱۳ گرم",چای سبز ۲ تومان وزن ۱۳ گرم,0.16129032258064516,0.16129032258064516,False,65.4171780042816
+D + structured plate reader,16,sign,True,کتابخانه ملی,,1.0,1.0,False,65.4171780042816
+D + structured plate reader,17,label,False,"شیر کم چرب
+۰۱۶۶۸ تومان
+وزن ۸۱۱ گرم",,1.0,1.0,False,30.6928209902253
+D + structured plate reader,17,plate,True,۱۲پ۶۸۴۸۷,۱۲پ۶۸۲۸۷,0.125,0.125,False,30.6928209902253
+D + structured plate reader,17,sign,False,داروخانه شبانه روزی,,1.0,1.0,False,30.6928209902253
+D + structured plate reader,18,plate,True,۸۵د۵۴۵۵۸,۸۵د۵۴۵۵۷,0.125,0.125,False,2.9521370015572757
+D + structured plate reader,19,sign,True,ورود ممنوع,,1.0,1.0,False,24.220104998676106
+D + structured plate reader,20,label,True,"شیر کم چرب
+۶۷۳۶۸ تومان
+وزن ۴۱۳ گرم",شیر کم چرب ۸ تومان وزن ۴۱۳ گرم,0.11764705882352941,0.11764705882352941,False,45.22875900147483
+D + structured plate reader,21,plate,True,۴۰ه۰۲۲۴۱,۴۰ه۰۲۲۴۱,0.0,0.0,True,19.718566996743903
+D + structured plate reader,21,sign,True,دانشگاه تهران,,1.0,1.0,False,19.718566996743903
+D + structured plate reader,22,label,True,"ماست محلی
+۷۸۸۲۲ تومان
+وزن ۶۶۸ گرم",ماست محلی ۲ تومان وزن ۶۶۸ گرم,0.12121212121212122,0.12121212121212122,False,67.19390998478048
+D + structured plate reader,22,sign,True,خروج اضطراری,,1.0,1.0,False,67.19390998478048
+D + structured plate reader,23,label,True,"پنیر سفید
+۹۲۵۹۷ تومان
+وزن ۸۱۲ گرم",۷ تومان وزن ۱۱۳ گرم,0.48484848484848486,0.48484848484848486,False,52.256166003644466
+D + structured plate reader,23,plate,True,۴۴س۱۴۴۸۷,۴۴ص۱۴۴۸۷,0.125,0.125,False,52.256166003644466
+D + structured plate reader,23,sign,True,پارکینگ عمومی,,1.0,1.0,False,52.256166003644466
+D + structured plate reader,24,plate,True,۸۹ت۲۹۳۹۶,۸۹ت۲۹۳۹۶,0.0,0.0,True,2.7952959935646504
+D + structured plate reader,25,sign,True,به شیراز خوش آمدید,,1.0,1.0,False,1.1750109842978418
+D + structured plate reader,26,label,True,"رب گوجه فرنگی
+۵۹۴۶۵ تومان
+وزن ۹۰۰ گرم",رب گوجه فرنگی ۶۵ تومان وزن ۹۰۰ گرم,0.08108108108108109,0.08108108108108109,False,43.865815008757636
+D + structured plate reader,27,plate,True,۱۳ب۶۸۱۵۰,۱۳ب۶۸۱۵۰,0.0,0.0,True,21.045392990345135
+D + structured plate reader,27,sign,True,بیمارستان,,1.0,1.0,False,21.045392990345135
+D + structured plate reader,28,label,False,"برنج ایرانی
+۰۳۷۷۰۶ تومان
+وزن ۱۹۱ گرم",,1.0,1.0,False,19.09197398344986
+D + structured plate reader,28,sign,True,فروشگاه مرکزی,,1.0,1.0,False,19.09197398344986
+D + structured plate reader,29,label,False,"ماست محلی
+۰۸۱۱۳۲ تومان
+وزن ۸۷۰ گرم",,1.0,1.0,False,2.94980697799474
+D + structured plate reader,29,plate,True,۹۱د۱۳۲۱۴,۹۱د۱۳۲۶۴,0.125,0.125,False,2.94980697799474
+D + structured plate reader,30,plate,True,۰۶م۱۳۹۷۸,,1.0,1.0,False,1.3909580011386424
+D + structured plate reader,31,sign,True,کتابخانه ملی,,1.0,1.0,False,17.649740999331698
+D + structured plate reader,32,label,True,"برنج ایرانی
+۶۰۸۴۸ تومان
+وزن ۸۵۰ گرم",بر ایرانی ۸ تومان وزن ۸۵۰ گر م,0.2,0.2,False,39.28936901502311
+D + structured plate reader,33,plate,True,۶۷ل۲۰۸۵۰,۶۷ل۲۰۸۵۰,0.0,0.0,True,20.406294002896175
+D + structured plate reader,33,sign,True,کتابخانه ملی,,1.0,1.0,False,20.406294002896175
+D + structured plate reader,34,label,False,"ماست محلی
+۱۴۳۹۶ تومان
+وزن ۳۸۷ گرم",,1.0,1.0,False,37.586437014397234
+D + structured plate reader,34,sign,True,داروخانه شبانه روزی,داروخانه شبانه روزی,0.0,0.0,True,37.586437014397234
+D + structured plate reader,35,label,True,"ماست محلی
+۴۱۸۶۳۱ تومان
+وزن ۹۶۸ گرم",۱۸۶۳۱ تومان وزن ۹۶۸ گرم,0.3235294117647059,0.3235294117647059,False,71.29707900458016
+D + structured plate reader,35,sign,True,داروخانه شبانه روزی,داروخانه شبانه روزی,0.0,0.0,True,71.29707900458016
+D + structured plate reader,36,plate,True,۳۷ل۴۵۲۰۳,۳۷ن۴۵۲۰۳,0.125,0.125,False,2.5325409951619804
+D + structured plate reader,37,sign,True,خروج اضطراری,,1.0,1.0,False,21.02412300882861
+D + structured plate reader,38,label,False,"عسل طبیعی
+۲۳۶۰۵ تومان
+وزن ۱۶۷ گرم",,1.0,1.0,False,25.655319972429425
+D + structured plate reader,39,plate,True,۶۳ن۹۴۵۵۲,۶۳ن۹۴۵۵۲,0.0,0.0,True,2.781284012598917
+D + structured plate reader,39,sign,False,ورود ممنوع,,1.0,1.0,False,2.781284012598917
+D + structured plate reader,40,label,True,"روغن زیتون
+۶۸۷۹۱۸ تومان
+وزن ۷۰۱ گرم",روغن زیتون ۸ تومان وزن ۷۰۱ گرم,0.14285714285714285,0.14285714285714285,False,63.6651290114969
+D + structured plate reader,40,sign,True,کتابخانه ملی,,1.0,1.0,False,63.6651290114969
+D + structured plate reader,41,label,False,"ماست محلی
+۷۵۰۲۶ تومان
+وزن ۶۲۱ گرم",,1.0,1.0,False,31.962735985871404
+D + structured plate reader,41,plate,True,۷۱و۴۸۸۱۵,۷۱و۴۸۸۶۴,0.25,0.25,False,31.962735985871404
+D + structured plate reader,41,sign,False,بیمارستان,,1.0,1.0,False,31.962735985871404
+D + structured plate reader,42,plate,True,۶۹م۰۶۰۴۱,۶۹م۰۶۰۴۱,0.0,0.0,True,2.645704982569441
+D + structured plate reader,43,sign,True,ورود ممنوع,,1.0,1.0,False,16.337312990799546
+D + structured plate reader,44,label,False,"رب گوجه فرنگی
+۶۵۸۹۸ تومان
+وزن ۹۶۲ گرم",,1.0,1.0,False,0.8108849870041013
+D + structured plate reader,45,plate,True,۵۶د۸۵۷۷۷,۵۶د۸۵۷۷۱,0.125,0.125,False,2.7189629909116775
+D + structured plate reader,45,sign,False,بیمارستان,,1.0,1.0,False,2.7189629909116775
+D + structured plate reader,46,label,True,"روغن زیتون
+۲۲۱۰۷ تومان
+وزن ۲۰۲ گرم",روغن زیتون ۷ تومان وزن ۲۰۲ گرم,0.11764705882352941,0.11764705882352941,False,57.548017997760326
+D + structured plate reader,46,sign,True,فروشگاه مرکزی,,1.0,1.0,False,57.548017997760326
+D + structured plate reader,47,label,True,"پنیر سفید
+۳۰۵۲۰ تومان
+وزن ۰۲۲ گرم",۰ تومان وزن ۰۲۲ گرم,0.42424242424242425,0.42424242424242425,False,64.53931101714261
+D + structured plate reader,47,plate,True,۸۷پ۸۵۰۲۱,۸۷پ۸۵۰۲۱,0.0,0.0,True,64.53931101714261
+D + structured plate reader,47,sign,False,ایستگاه مترو,,1.0,1.0,False,64.53931101714261
+D + structured plate reader,48,plate,True,۷۳ی۰۰۳۸۳,,1.0,1.0,False,1.7432250024285167
+D + structured plate reader,49,sign,True,داروخانه شبانه روزی,,1.0,1.0,False,18.534322996856645
+D + structured plate reader,50,label,True,"پنیر سفید
+۷۸۹۳۲۸ تومان
+وزن ۸۶۷ گرم",۸ توبان زر ۰,0.7352941176470589,0.7352941176470589,False,37.432288023410365
+D + structured plate reader,51,plate,True,۱۷ن۳۹۹۵۴,۱۷ن۳۹۹۰۴,0.125,0.125,False,19.183375989086926
+D + structured plate reader,51,sign,True,بیمارستان,,1.0,1.0,False,19.183375989086926
+D + structured plate reader,52,label,True,"شیر کم چرب
+۱۸۸۳۸۸ تومان
+وزن ۱۸۵ گرم",شیر کم چرب ۸ آتومان وزن ۱۸۵ گرم,0.17142857142857143,0.17142857142857143,False,72.4278179986868
+D + structured plate reader,52,sign,True,فروشگاه مرکزی,,1.0,1.0,False,72.4278179986868
+D + structured plate reader,53,label,True,"چای سبز
+۲۸۱۴۲ تومان
+وزن ۷۲۴ گرم",چای سب ۲ تهمان ورن ۷۳۴ گرم,0.25806451612903225,0.25806451612903225,False,39.198368991492316
+D + structured plate reader,53,plate,True,۱۳ص۲۴۹۳۲,,1.0,1.0,False,39.198368991492316
+D + structured plate reader,54,plate,True,۰۹ی۶۸۶۸۰,,1.0,1.0,False,1.5031600196380168
+D + structured plate reader,55,sign,True,بیمارستان,,1.0,1.0,False,86.38777199666947
+D + structured plate reader,56,label,True,"چای سبز
+۲۳۵۶۸۶ تومان
+وزن ۳۵۱ گرم",چای سبز ۶ تومان وزن ۳۵۱ گرم,0.15625,0.15625,False,45.484261005185544
+D + structured plate reader,57,sign,True,به شیراز خوش آمدید,به شیراز خوش آمدید,0.0,0.0,True,33.87774701695889
+D + structured plate reader,57,plate,True,۷۵د۰۹۴۴۰,۷۵د۰۹۴۴۰,0.0,0.0,True,33.87774701695889
+D + structured plate reader,58,label,True,"پنیر سفید
+۶۸۹۲۳۶ تومان
+وزن ۵۸۳ گرم",۶ تومان وزن ۵۸۳ گرم,0.4411764705882353,0.4411764705882353,False,61.01628398755565
+D + structured plate reader,58,sign,True,دانشگاه تهران,دانشگاه تهران,0.0,0.0,True,61.01628398755565
+D + structured plate reader,59,label,False,"برنج ایرانی
+۹۰۵۹۲ تومان
+وزن ۳۶۷ گرم",,1.0,1.0,False,84.48702600435354
+D + structured plate reader,59,sign,True,بیمارستان,,1.0,1.0,False,84.48702600435354
