@@ -1,0 +1,6 @@
+path: /home/norbert/Projects/computer_vision_oly/object_tracking/box_factory/box-factory-dataset/train
+train: images/train
+val: images/val
+names:
+  0: healthy_box
+  1: defective_box
