@@ -187,7 +187,3 @@ python offside_detection.py
 ## 🤝 Team
 
 **Team Chati Pati** — Competing in the Quera Image Processing Olympiad, Final Round.
-
-## 📄 License
-
-This repository is for educational and competition purposes. All code is released under the [MIT License](LICENSE) unless otherwise specified.
