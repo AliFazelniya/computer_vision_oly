@@ -1,189 +1,190 @@
 <div align="center">
 
-# Team Chati Pati — Quera Image Processing Competition
+# Team Chati Pati — Quera Image Processing Olympiad
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red?logo=pytorch)](https://pytorch.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv)](https://opencv.org)
+[![Ultralytics YOLO](https://img.shields.io/badge/YOLO-v8%20%7C%2011-yellow)](https://github.com/ultralytics/ultralytics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**A curated, competition-ready collection of Computer Vision projects built by Team Chati Pati for the Quera Image Processing Olympiad — Final Round.**
+**A comprehensive, production-grade repository of Computer Vision solutions, algorithmic pipelines, and curriculum notebooks developed by Team "Chati Pati" for the Quera Image Processing Olympiad — Final Round.**
 
 </div>
 
-<p align="center"><img src="poster.jpg" alt="poster" /></p>
+<p align="center"><img src="poster.jpg" alt="Team Chati Pati Poster" width="90%" /></p>
 
-## About This Repository
+---
 
-This repository is the central hub for **Team Chati Pati**'s solutions to all challenges in the [Quera Image Processing Competition](https://quera.org). Each project directory contains a fully self-contained solution with its own dataset references, trained model weights, and detailed documentation.
+## 📖 About This Repository
 
-The repository is organized by **Computer Vision discipline**, making it easy to cross-reference techniques and reuse components across challenges.
+This repository serves as the unified engineering hub for **Team Chati Pati**'s solutions across all phases of the [Quera Image Processing Olympiad](https://quera.org). It spans the entire modern computer vision spectrum: from deterministic signal processing and frequency-domain filtering to deep convolutional networks, vision-language models (CLIP), real-time object detection/tracking (YOLOv8/11 + SORT), and complex Persian OCR systems.
 
-## Repository Structure
+The repository is organized into dedicated discipline directories. Each project contains its own self-contained code, detailed technical README, pipeline architectures, hyperparameter configs, and evaluation metrics.
+
+---
+
+## 🗂️ Complete Directory Hierarchy
 
 ```
 computer_vision_oly/
 │
-├── classification/                   # Image Classification tasks
-│   ├── her_face/                        # Face-based classification
-│   ├── machinebazi/                     # Multi-label car part classification (ResNet50)
-│   ├── pool/                            # Pool classification challenge
-│   └── watermark_detection/             # Watermark presence detection
+├── classification/                     # Image Classification & Multi-Attribute Learning
+│   ├── her_face/                       # Multi-attribute facial classification (MobileNetV2)
+│   ├── machinebazi/                    # Multi-label car component classification (ResNet50 from scratch)
+│   ├── pool/                           # Real estate swimming pool classification from multimodal listings
+│   └── watermark_detection/            # Binary image watermark presence detection
 │
-├── object_detection/                 # Object Detection & Localization tasks
-│   ├── football_analysis/               # YOLO-based football player analysis
-│   ├── offside/                         # Geometric football offside detection
-│   └── sheet.ipynb    # Phase 2: YOLO & Object Detection master notebook
+├── object_detection/                   # Object Detection, Bounding Box Regression & VAR Analytics
+│   ├── football_analysis/              # YOLOv8x player detection & K-Means jersey color clustering
+│   ├── offside/                        # Classical VAR offside line detection via color-space segmentation
+│   └── sheet.ipynb                     # Phase 2: Object Detection Bootcamp (IoU, NMS, YOLOv8, Roboflow)
 │
-├── object_tracking/                  # Object Tracking tasks
-│   └── sheet.ipynb # Phase 3: Custom SORT, Kalman, ByteTrack master notebook
+├── object_tracking/                    # Video Multi-Object Tracking & Motion Estimation
+│   ├── box_factory/                    # Industrial conveyor defect tracking (YOLO11s + CenterTracker)
+│   ├── sheet.ipynb                     # Phase 3: Tracking Master Laboratory (Centroid, Hungarian, SORT, ByteTrack)
+│   └── papers/                         # Research literature and algorithmic citations
 │
-├── ocr/                              # Optical Character Recognition tasks
-│   └── ugly_handwriting/                # Handwritten character recognition
+├── ocr/                                # Optical Character Recognition & RTL Script Engineering
+│   ├── packman/                        # Maze perspective rectification, entity detection & scoreboard OCR
+│   ├── ugly_handwriting/               # Degraded handwritten math expression OCR (16-class CNN)
+│   ├── phase4_persian_ocr/             # Persian OCR benchmark research: calibration, multiline, synthetic data
+│   └── sheet.ipynb                     # Phase 4: Master Persian OCR Notebook (Unicode, Raqm, Tesseract, CER)
 │
-├── segmentation/                     # Pixel-Level Segmentation tasks
-│   ├── avengers_shield/                 # 1D drone audio event segmentation (TCN)
-│   ├── project_chrono_vision/           # YOLOv8 instance segmentation
-│   └── ultravision_operation/           # Medical X-ray segmentation (UNet + CLIP)
+├── segmentation/                       # Pixel-Level Delineation & Audio-Visual Segmentation
+│   ├── avengers_shield/                # 1D temporal drone audio event segmentation (Dilated TCN)
+│   ├── project_chrono_vision/          # Instance segmentation using YOLOv8l-seg
+│   └── ultravision_operation/          # Medical chest X-ray lesion segmentation (CLIP ViT + UNet)
 │
-├── geometry_and_puzzle_solving/      # NEW CATEGORY — Geometric & Structural reasoning
-│   └── sudoku/                          # Sudoku board extraction + CNN digit recognition + solver
+├── geometry_and_puzzle_solving/        # Structured Geometric Rectification & Constraint Solvers
+│   └── sudoku/                         # Photographic Sudoku extraction + SudokuCNN + MRV backtracking solver
 │
-├── image_processing_fundamentals/   # NEW CATEGORY — Classical CV & Preprocessing
-│   └── opencv/
-│       ├── postcard/                    # FFT noise removal + watermark embedding
-│       │   ├── watermark_v1.py
-│       │   ├── watermark_v2.py          # Distance-transform glow effects
-│       │   └── grid_search.py           # Parallel SSIM-optimized parameter search
-│       ├── skin_finding/
-│       │   └── skin.py                  # YCrCb + HSV dual-space skin detection
-│       ├── sheet.ipynb                 # OpenCV exercises: Sobel, Canny, ORB, Hough
-│       └── video_gray.ipynb             # Grayscale video conversion pipeline
+├── image_processing_fundamentals/      # Classical Computer Vision & Signal Processing
+│   ├── postcard/                       # 2D FFT periodic noise removal & distance-transform glow watermarking
+│   ├── skin_finding/                   # Dual color-space (YCrCb + HSV) face skin segmentation with IoU eval
+│   └── sheet.ipynb                     # Phase 1: 7-Day OpenCV Professional Mastery Bootcamp
 │
-├── docs/
-│   ├── roadmap.md                       # Roadmap for final round (for notion)
-│   └── yolo.pptx                        # Powerpoint file for yolo model info
+├── integrated_problems/                # Capstone Multi-Domain Vision Pipelines & Contest Prep
+│   ├── notebook.ipynb                  # Phase 5: Master Integration Notebook (Wall geometry, MOT, OCR, Sweeps)
+│   ├── competition-prep/               # Modular, self-testing CV toolbox (geometry, tracking, OCR, evaluation)
+│   └── integrated_problems/            # Benchmark datasets, synthetic crossing videos, and stress reports
 │
-├── README.md
-├── poster.jpg
-└── requirements.txt
+├── docs/                               # Team Documentation, References & Presentation Slides
+│   ├── OCR_Project_Study_Note.pdf      # In-depth architectural notes on end-to-end OCR pipelines
+│   ├── yolo.pdf                        # Theoretical evolution of YOLO detectors
+│   └── yolo.pptx                       # Team seminar presentation slides on modern real-time detection
+│
+├── poster.jpg                          # Team Chati Pati visual poster
+├── requirements.txt                    # Project-wide Python dependencies
+└── README.md                           # Master landing documentation
 ```
 
-## Category Descriptions
+---
 
-### Classification
+## 🏆 Projects at a Glance
 
-Binary or multi-class image classification using deep learning backbones (ResNet, EfficientNet, CLIP ViT). Includes tasks such as car part identification, face classification, and watermark detection.
+| Category | Project | Core Techniques & Models | Challenge / Link |
+| :--- | :--- | :--- | :--- |
+| **Classification** | [`machinebazi`](classification/machinebazi/) | ResNet50 trained from scratch, class-weighted CE, StratifiedSplit | [Quera #307569](https://quera.org/problemset/307569) |
+| **Classification** | [`her_face`](classification/her_face/) | MobileNetV2 transfer learning, multi-output sigmoid heads | [Quera #251284](https://quera.org/problemset/251284) |
+| **Classification** | [`pool`](classification/pool/) | JSON metadata parsing + MobileNetV2 image classification | [Quera #251285](https://quera.org/problemset/251285) |
+| **Classification** | [`watermark_detection`](classification/watermark_detection/) | MobileNetV2 binary classification, data generator streaming | [Quera #138169](https://quera.org/problemset/138169) |
+| **Object Detection** | [`offside`](object_detection/offside/) | Pure-Python color segmentation, disc edge finding, scale calibration | [Quera #355584](https://quera.org/contest/assignments/103147/problems/355584) |
+| **Object Detection** | [`football_analysis`](object_detection/football_analysis/) | YOLOv8x player detection, area ratio filters, $K$-Means jersey clustering | [Quera #307571](https://quera.org/problemset/307571) |
+| **Object Detection** | [`sheet.ipynb`](object_detection/sheet.ipynb) | IoU vectorized calculation, YOLOv8 nano, Roboflow parsing, synthetic targets | Phase 2 Curriculum |
+| **Object Tracking** | [`box_factory`](object_tracking/box_factory/) | YOLO11s package defect detection + CenterTracker conveyor tracking | [Quera #310514](https://quera.org/contest/assignments/109270/problems) |
+| **Object Tracking** | [`sheet.ipynb`](object_tracking/sheet.ipynb) | Centroid tracker, Hungarian bipartite matching, Kalman filtering, SORT, ByteTrack | Phase 3 Curriculum |
+| **OCR** | [`packman`](ocr/packman/) | Maze quad perspective warping, entity masks, PaddleOCR/EasyOCR scoreboard read, BFS | [Quera #363305](https://quera.org/contest/assignments/109270/problems/363305) |
+| **OCR** | [`ugly_handwriting`](ocr/ugly_handwriting/) | Multi-stroke box merging, style classification, 16-class LeNet CNN | [Quera #292198](https://quera.org/problemset/292198) |
+| **OCR** | [`phase4_persian_ocr`](ocr/phase4_persian_ocr/) | Persian OCR benchmarking, multiline transcriptions, degradation calibration | Research Benchmark |
+| **OCR** | [`sheet.ipynb`](ocr/sheet.ipynb) | RTL Unicode normalisation, Raqm font rendering, contrast stretching, Tesseract CER | Phase 4 Curriculum |
+| **Segmentation** | [`avengers_shield`](segmentation/avengers_shield/) | 1D Dilated Temporal Convolutional Network (TCN) + BoundaryRefiner | [Quera #355588](https://quera.org/contest/assignments/103147/problems/355588) |
+| **Segmentation** | [`ultravision_operation`](segmentation/ultravision_operation/) | Dual-headed CLIP ViT-B/32 classifier + `smp` UNet lesion segmentation | [Quera #310514](https://quera.org/contest/assignments/91552/problems/310514) |
+| **Segmentation** | [`project_chrono_vision`](segmentation/project_chrono_vision/) | YOLOv8l-seg instance segmentation, prototype mask recombination | [Quera #310516](https://quera.org/contest/assignments/91552/problems/310516) |
+| **Geometry** | [`sudoku`](geometry_and_puzzle_solving/sudoku/) | Adaptive threshold warp, 9x9 cell slicer, SudokuCNN, MRV backtracking | [Quera #355590](https://quera.org/contest/assignments/103147/problems/355590) |
+| **Fundamentals** | [`postcard`](image_processing_fundamentals/postcard/) | 2D FFT notch filter, distance-transform glow/shadow, parallel SSIM grid search | [Quera #307570](https://quera.org/problemset/307570) |
+| **Fundamentals** | [`skin_finding`](image_processing_fundamentals/skin_finding/) | Dual color-space ($YCrCb \land HSV$), elliptical morphology, hole filling, IoU | [Quera #292197](https://quera.org/problemset/292197) |
+| **Fundamentals** | [`sheet.ipynb`](image_processing_fundamentals/sheet.ipynb) | 7-day OpenCV mastery: Sobel, Canny, Hough lines/circles, ORB+RANSAC, TLS | Phase 1 Curriculum |
+| **Integration** | [`integrated_problems`](integrated_problems/) | Capstone Phase 5: Wall edge TLS regression, MOT crossing counters, 60-min mock harness | Phase 5 Integration |
 
-### Object Detection (Phase 2)
+---
 
-Localizing and identifying objects within images. Includes classical geometric methods (offside line detection via color segmentation) as well as modern YOLO-based deep detection and mAP evaluation. This module features a comprehensive Jupyter Notebook (`chati_pati_yolo_master.ipynb`) generated automatically via a custom Python script (`generate_yolo_notebook.py`) to systematically guide the team through detection concepts.
-
-### Object Tracking (Phase 3)
-
-Tracking objects across video sequences. Features robust multi-object tracking techniques including custom implementations of SORT, Kalman Filters, Hungarian matching, and ByteTrack. A detailed curriculum is provided in the `chati_pati_tracking_master.ipynb` notebook (built using a Python generator script) to ensure reproducible and up-to-date educational material for the team.
-
-### OCR (Optical Character Recognition)
-
-Recognizing text from images, including challenging handwritten or noisy inputs using convolutional sequence models and custom preprocessing.
-
-### Segmentation
-
-Pixel-level labeling including:
-
-- **1D Temporal Segmentation** (audio/spectrogram event detection via TCN)
-- **Medical Image Segmentation** (UNet on X-rays)
-- **Instance Segmentation** (YOLOv8-seg)
-
-### Geometry & Puzzle Solving
-
-Problems requiring geometric reasoning, perspective correction, and structured constraint solving — e.g., extracting and solving Sudoku boards from photographs.
-
-### Image Processing Fundamentals
-
-Classical signal processing and preprocessing techniques: FFT-based noise removal, distance-transform watermarking, morphological skin detection, feature-based image alignment (ORB + RANSAC), and video processing.
-
-## Setup & Installation
+## 🛠️ Setup & Installation
 
 ### Prerequisites
-
-- Python 3.10 or higher
-- CUDA-capable GPU (recommended for deep learning projects)
-- `git` with `git-lfs` (for large model weight files)
+- Linux / macOS / Windows with **Python 3.10+**
+- NVIDIA GPU with CUDA 12.1+ support (recommended for deep learning modules)
+- Git & Git LFS
 
 ### 1. Clone the Repository
-
 ```bash
-git clone https://github.com/AliFazelniya/computer_vision_oly/
+git clone https://github.com/AliFazelniya/computer_vision_oly.git
 cd computer_vision_oly
 ```
 
-### 2. Create a Virtual Environment
-
+### 2. Set Up Virtual Environment
 ```bash
-python -m venv .venv
-source .venv/bin/activate      # Linux / macOS
-# .venv\Scripts\activate       # Windows
+python3 -m venv .venv
+source .venv/bin/activate       # On Windows: .venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
-
 ```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-_Note: Following the recent Phase 2 and Phase 3 updates, ensure your environment includes the newly added core libraries: `ultralytics` (for YOLO), `pandas`, `scipy` (for Hungarian matching), `filterpy` (for Kalman Filters), and `opencv-python`._
+*Key libraries included:* `torch`, `torchvision`, `ultralytics`, `opencv-python-headless`, `scipy`, `scikit-learn`, `scikit-image`, `tensorflow`, `transformers`, `filterpy`, `pillow`, `tqdm`.
 
-### 4. Install Project-Specific Dependencies
+---
 
-Each project may require additional packages. Install them as needed:
+## 🚀 Execution & Quick Start
 
-### 5. Dataset Setup
-
-Each project's `README.md` includes instructions for downloading and placing the dataset. General structure:
-
-```
-<project>/
-  ├── train/      ← Training images (+ optional train.csv)
-  ├── test/       ← Test images (+ test.csv)
-  └── notebook.ipynb
-```
-
-## Quick Start
-
-Navigate into any project and run its notebook:
-
+### Run Standalone Python Pipelines
 ```bash
-cd classification/machinebazi
-jupyter notebook notebook.ipynb
+# Classical Offside Detection
+python3 object_detection/offside/offside_detection.py
+
+# Dual Color-Space Skin Segmentation
+python3 image_processing_fundamentals/skin_finding/skin.py
+
+# FFT Postcard Denoising & Distance-Transform Glow Watermark
+python3 image_processing_fundamentals/postcard/watermark_v2.py
+
+# Parallel SSIM Hyperparameter Optimization
+python3 image_processing_fundamentals/postcard/grid_search.py
+
+# Run Integrated Competition-Prep Self-Tests
+python3 integrated_problems/competition-prep/run_all_tests.py
 ```
 
-Or run standalone Python scripts:
-
+### Launch Interactive Jupyter Notebooks
 ```bash
-cd object_detection/offside
-python offside_detection.py
+# Phase 1: 7-Day OpenCV Professional Mastery
+jupyter notebook image_processing_fundamentals/sheet.ipynb
+
+# Phase 2: Object Detection Mastery
+jupyter notebook object_detection/sheet.ipynb
+
+# Phase 3: Multi-Object Tracking Mastery
+jupyter notebook object_tracking/sheet.ipynb
+
+# Phase 4: Persian OCR Mastery
+jupyter notebook ocr/sheet.ipynb
+
+# Phase 5: Multi-Domain Integration & Mock Contest
+jupyter notebook integrated_problems/notebook.ipynb
+
+# Deep Learning Challenges
+jupyter notebook classification/machinebazi/notebook.ipynb
+jupyter notebook segmentation/ultravision_operation/notebook.ipynb
+jupyter notebook geometry_and_puzzle_solving/sudoku/notebook.ipynb
+jupyter notebook object_tracking/box_factory/main.ipynb
+jupyter notebook ocr/packman/main.ipynb
 ```
 
-## Projects at a Glance
+---
 
-| Project                 | Category          | Core Technique                              | Competition Link                                                      |
-| ----------------------- | ----------------- | ------------------------------------------- | --------------------------------------------------------------------- |
-| `machinebazi`           | Classification    | ResNet50, class-weighted CE                 | [Quera](https://quera.org/problemset/307569)                          |
-| `her_face`              | Classification    | Deep CNN                                    | [Quera](https://quera.org/problemset/251284)                          |
-| `pool`                  | Classification    | CNN                                         | [Quera](https://quera.org/problemset/251285)                          |
-| `watermark_detection`   | Classification    | CNN                                         | [Quera](https://quera.org/problemset/138169)                          |
-| `offside`               | Object Detection  | Color segmentation + geometry               | [Quera](https://quera.org/contest/assignments/103147/problems/355584) |
-| `yolo_master`           | Object Detection  | YOLOv8, bounding boxes, mAP eval            | Phase 2 Curriculum                                                    |
-| `tracking_master`       | Object Tracking   | SORT, Kalman Filter, ByteTrack, Hungarian   | Phase 3 Curriculum                                                    |
-| `football_analysis`     | Object Detection  | YOLOv8x                                     | [Quera](https://quera.org/problemset/307571)                          |
-| `ugly_handwriting`      | OCR               | Custom CNN + seq model                      | [Quera](https://quera.org/problemset/292198)                          |
-| `avengers_shield`       | Segmentation      | Dilated TCN + BoundaryRefiner               | [Quera](https://quera.org/contest/assignments/103147/problems/355588) |
-| `ultravision_operation` | Segmentation      | CLIP ViT + UNet                             | [Quera](https://quera.org/contest/assignments/91552/problems/310514)  |
-| `project_chrono_vision` | Segmentation      | YOLOv8l-seg                                 | [Quera](https://quera.org/contest/assignments/91552/problems/310516)  |
-| `sudoku`                | Geometry & Puzzle | Perspective warp + SudokuCNN + backtracking | [Quera](https://quera.org/contest/assignments/103147/problems/355590) |
-| `opencv`                | IP Fundamentals   | FFT, morphology, ORB, Hough                 | [OpenCV](https://docs.opencv.org/5.0/)                                |
+## 🤝 Team Credits
 
-## 🤝 Team
-
-**Team Chati Pati** — Competing in the Quera Image Processing Olympiad, Final Round.
+Developed by **Team Chati Pati** for the **Quera Image Processing Olympiad — Final Round**.
